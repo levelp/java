@@ -23,6 +23,7 @@
         <module>11_Timer</module>
         <module>98_XORTest</module>
         <module>Q1</module>
+        <module>Task_Generic</module>
     </modules>
 
     <build>

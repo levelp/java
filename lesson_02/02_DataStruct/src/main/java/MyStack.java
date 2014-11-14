@@ -5,6 +5,11 @@ public class MyStack<T> {
     int counter = 0;
     Object[] data = new Object[0];
 
+    /**
+     * Добавить значение в стек
+     *
+     * @param value
+     */
     public void push(T value) {
         ++counter;
         if (data.length < counter) {
@@ -21,6 +26,11 @@ public class MyStack<T> {
         return counter;
     }
 
+    /**
+     * Получить значение с вершины
+     *
+     * @return
+     */
     @SuppressWarnings("unchecked")
     public T pop() {
         Object value = data[data.length - 1];
