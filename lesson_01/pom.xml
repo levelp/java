@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>java</groupId>
+    <artifactId>lesson_01</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <name>Java Junior Developer 1</name>
+
+    <modules>
+        <module>00_HelloWorld</module>
+        <module>01_DataTypes</module>
+        <module>02_Cycle</module>
+        <module>03_OOP</module>
+        <module>04_JUnit</module>
+        <module>05_SquareEq</module>
+        <module>06_DateDemo</module>
+        <module>07_ArcSin</module>
+        <module>08_ConsoleDemo</module>
+        <module>09_SwingApplication</module>
+        <module>10_ReadTextDemo</module>
+        <module>11_Timer</module>
+        <module>12_IntegrationTesting</module>
+        <module>98_XORTest</module>
+        <module>99_ResumeModel</module>
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.5</source>
+                        <target>1.5</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,1 @@
+mvn archetype:generate -DarchetypeGroupId=com.github.spring-mvc-archetypes -DarchetypeArtifactId=spring-mvc-quickstart -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=levelp -DartifactId=Quickstart -Dversion=1.0.0

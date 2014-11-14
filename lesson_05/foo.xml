@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_72" class="java.beans.XMLDecoder">
+ <object class="MyClass">
+  <void property="name">
+   <string>Петя</string>
+  </void>
+ </object>
+</java>
