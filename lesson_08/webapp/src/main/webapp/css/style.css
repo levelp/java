@@ -1,0 +1,73 @@
+header {
+    background: none repeat scroll 0 0 #A6C9E2;
+    color: #2E6E9E;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 6px;
+}
+
+section {
+    margin: 6px;
+    overflow: visible;
+}
+
+body {
+    color: #222222;
+    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-size: 14px;
+}
+
+dl {
+    background: none repeat scroll 0 0 #FAFAFA;
+    margin: 8px 0;
+    padding: 0;
+}
+
+dt {
+    display: inline-block;
+    width: 170px;
+}
+
+dd {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: top;
+}
+
+.error {
+    margin-left: 10px;
+    color: #c00;
+}
+
+button, #submit {
+    margin-top: 10px;
+}
+
+td {
+    vertical-align: top;
+}
+
+.small {
+    font-size: x-small;
+}
+
+.section_item {
+    border: solid 1px black;
+    padding: 0 0 0 10px;
+    margin: 10px 0 0 0
+}
+
+a[href^="mailto:"] {
+    background: url("../img/email.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 20px;
+}
+
+a[href^="skype:"] {
+    background: url("../img/skype.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 20px;
+}
+
+a[href$=".pdf"] {
+    background: url("../img/pdf.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 20px;
+}

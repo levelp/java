@@ -1,0 +1,1 @@
+java -jar mavenize-1.0.2.jar -iC:\Users\gtee\Desktop\java\lesson_04\WebViewBrowser -oC:\Users\gtee\Desktop\java\lesson_04\mavenized
