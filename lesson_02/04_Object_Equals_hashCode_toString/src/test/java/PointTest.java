@@ -1,5 +1,3 @@
-package tests;
-
 import geometry.Point;
 import org.junit.Test;
 
