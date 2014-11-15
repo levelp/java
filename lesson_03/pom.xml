@@ -11,7 +11,7 @@
     <name>Java Junior Developer 3</name>
 
     <modules>
-        <module>01_Memory</module>
+        <module>01_Collections</module>
         <module>02_DataStruct</module>
         <module>02_Boxing</module>
         <module>03_Reflection</module>
