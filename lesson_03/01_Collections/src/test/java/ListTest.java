@@ -20,64 +20,64 @@ public class ListTest {
     @Test
     public void lists() {
         // Интерфейс =  Класс с реализацией этого интерфейса
-        List<Integer> ints = new ArrayList<Integer>();
-        assertTrue("Список пуст", ints.isEmpty());
+        List<Integer> integers = new ArrayList<Integer>();
+        assertTrue("Список пуст", integers.isEmpty());
 
         // Метод add() добавить в конец списка
-        ints.add(7);
-        ints.add(10);
-        assertFalse("Теперь уже не пуст", ints.isEmpty());
+        integers.add(7);
+        integers.add(10);
+        assertFalse("Теперь уже не пуст", integers.isEmpty());
 
         // size() - количество элементов в списке
-        assertEquals("В списке 2 элемента", 2, ints.size());
+        assertEquals("В списке 2 элемента", 2, integers.size());
         // get(index) - получить элемент с заданным индексом
-        Integer integer = ints.get(0);
+        Integer integer = integers.get(0);
         assertEquals("0-ой элемент", 7, integer.intValue());
-        assertEquals("1-ый элемент", 10, ints.get(1).intValue());
+        assertEquals("1-ый элемент", 10, integers.get(1).intValue());
 
         // Добавить элемент в заданнную позицию (элементы с большими индексами сдвигаются вправо)
-        ints.add(1, 11);
+        integers.add(1, 11);
 
         // Теперь 3 элемента: {7, 11, 10}
-        assertEquals(3, ints.size());
-        assertEquals(7, ints.get(0).intValue());
-        assertEquals(11, ints.get(1).intValue());
-        assertEquals(10, ints.get(2).intValue());
+        assertEquals(3, integers.size());
+        assertEquals(7, integers.get(0).intValue());
+        assertEquals(11, integers.get(1).intValue());
+        assertEquals(10, integers.get(2).intValue());
         // Преобразование в массив
-        Integer[] intArray = listToArray(ints);
+        Integer[] intArray = listToArray(integers);
         assertArrayEquals(new Integer[]{7, 11, 10}, intArray);
 
         // Добавляем сразу массив элементов
-        ints.addAll(Arrays.asList(2, 5, 6));
-        assertArrayEquals(new Integer[]{7, 11, 10, 2, 5, 6}, listToArray(ints));
+        integers.addAll(Arrays.asList(2, 5, 6));
+        assertArrayEquals(new Integer[]{7, 11, 10, 2, 5, 6}, listToArray(integers));
 
         Integer[] newValues = {88, 99};
-        ints.addAll(2, Arrays.asList(newValues));
-        assertArrayEquals(new Integer[]{7, 11, 88, 99, 10, 2, 5, 6}, listToArray(ints));
+        integers.addAll(2, Arrays.asList(newValues));
+        assertArrayEquals(new Integer[]{7, 11, 88, 99, 10, 2, 5, 6}, listToArray(integers));
 
         // remove(Object o) - удаление элемента по значению
-        ints.remove(new Integer(99)); // Не так: ints.remove(99);
-        assertArrayEquals(new Integer[]{7, 11, 88, 10, 2, 5, 6}, listToArray(ints));
+        integers.remove(new Integer(99)); // Не так: ints.remove(99);
+        assertArrayEquals(new Integer[]{7, 11, 88, 10, 2, 5, 6}, listToArray(integers));
 
-        ints.remove(1); // Удалить элемент с индексом 1
-        assertArrayEquals(new Integer[]{7, 88, 10, 2, 5, 6}, listToArray(ints));
+        integers.remove(1); // Удалить элемент с индексом 1
+        assertArrayEquals(new Integer[]{7, 88, 10, 2, 5, 6}, listToArray(integers));
 
         // contains(Object o) - наличия элемента в списке
-        assertTrue(ints.contains(7));
-        assertTrue(ints.contains(88));
-        assertFalse(ints.contains(89));
+        assertTrue(integers.contains(7));
+        assertTrue(integers.contains(88));
+        assertFalse(integers.contains(89));
 
         // Проверка, содержит ли один список другой список
         assertTrue("Содержатся все эти элементы",
-                ints.containsAll(arrayToList(new Integer[]{7, 10, 2})));
+                integers.containsAll(arrayToList(new Integer[]{7, 10, 2})));
 
         // set(int index, E element)
-        assertArrayEquals(new Integer[]{7, 88, 10, 2, 5, 6}, listToArray(ints));
-        ints.set(1, 100); // Меняем элемент
-        assertArrayEquals(new Integer[]{7, 100, 10, 2, 5, 6}, listToArray(ints));
+        assertArrayEquals(new Integer[]{7, 88, 10, 2, 5, 6}, listToArray(integers));
+        integers.set(1, 100); // Меняем элемент
+        assertArrayEquals(new Integer[]{7, 100, 10, 2, 5, 6}, listToArray(integers));
 
         // Список с индекса по индекс [fromIndex, toIndex)
-        assertArrayEquals(new Integer[]{100, 10}, listToArray(ints.subList(1, 3)));
+        assertArrayEquals(new Integer[]{100, 10}, listToArray(integers.subList(1, 3)));
     }
 
     /**

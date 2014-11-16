@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * Тесты на JUnit3
+ * <p/>
+ * Тестовый класс должен быть наследником TestCase (junit.framework.TestCase)
  */
 public class JUnit3Demo extends TestCase {
 

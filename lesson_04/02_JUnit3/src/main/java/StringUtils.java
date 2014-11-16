@@ -1,5 +1,5 @@
 /**
- *
+ * Тестируемый класс
  */
 public abstract class StringUtils {
     private static final int HI_BYTE_MASK = 0xf0;
