@@ -12,6 +12,7 @@
 
     <modules>
         <module>01_Collections</module>
+        <module>02_JavaFX</module>
     </modules>
 
     <build>
