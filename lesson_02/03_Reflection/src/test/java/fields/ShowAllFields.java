@@ -25,10 +25,15 @@ public class ShowAllFields {
             try {
                 int modifiers = field.getModifiers();
                 if ((modifiers & Modifier.PRIVATE) != 0) {
-                    continue;
+                    System.out.print("private ");
                 }
-                if ((modifiers & Modifier.PUBLIC) != 0)
+                if ((modifiers & Modifier.PUBLIC) != 0) {
                     System.out.print("public ");
+                }
+                if (modifiers == 0) {
+                    System.out.print("default ");
+                    break;
+                }
                 System.out.println(field.getName() + " = "
                         + field.get(obj) + " " + modifiers);
             } catch (IllegalAccessException e) {

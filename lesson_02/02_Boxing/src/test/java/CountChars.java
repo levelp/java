@@ -26,9 +26,5 @@ public class CountChars {
         assertFalse(map.containsKey('A'));
         map.put('A', 11);
         map.get('A');
-
-
-
     }
-
 }

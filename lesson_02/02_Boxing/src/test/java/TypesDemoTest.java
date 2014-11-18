@@ -24,7 +24,7 @@ public class TypesDemoTest {
         assertFalse(Boolean.parseBoolean("false"));
 
         Integer k = 65535; // FFFF
-        assertEquals("FFFF", Integer.toHexString(k));
+        assertEquals("ffff", Integer.toHexString(k));
 
         Boolean b = true;
 

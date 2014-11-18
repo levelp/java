@@ -33,6 +33,7 @@ public class MyStack<T> {
      */
     @SuppressWarnings("unchecked")
     public T pop() {
+        --counter;
         Object value = data[data.length - 1];
         Object[] newData = new Object[data.length - 1];
         System.arraycopy(data, 0, newData, 0, data.length - 1);

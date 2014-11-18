@@ -6,7 +6,7 @@ package simple;
 public class MyClass {
     public int publicIntField;
     public String publicStringField;
-    int packageLocalIntField;
+    int packageLocalIntField = 50;
     private int privateIntField = 100;
 
 

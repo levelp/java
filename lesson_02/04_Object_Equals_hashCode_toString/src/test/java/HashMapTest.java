@@ -3,6 +3,8 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * Использование ассоциативного массива
  */
@@ -15,7 +17,7 @@ public class HashMapTest {
         hashMap.put(1, "один");
         hashMap.put(2, "два");
 
-        hashMap.get(2);
+        assertEquals("два", hashMap.get(2));
 
     }
 }

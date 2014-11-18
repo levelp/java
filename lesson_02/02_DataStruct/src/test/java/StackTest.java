@@ -60,5 +60,8 @@ public class StackTest {
         myStack.push("CC");
         assertEquals("CC", myStack.pop());
         assertEquals("BB", myStack.pop());
+        myStack.push("BB");
+        assertEquals(1, myStack.size());
+
     }
 }

@@ -9,9 +9,11 @@ public class TypesDemo {
         int maxInt = Integer.MAX_VALUE;
         int minInt = Integer.MIN_VALUE;
         System.out.println("maxInt = " + maxInt);
+        System.out.println("minInt = " + minInt);
 
         String str = "123";
         int value = Integer.parseInt(str);
+        System.out.println("value = " + value);
 
         int binValue = Integer.parseInt("01011", 2);
         System.out.println("binValue = " + binValue);
