@@ -25,5 +25,6 @@
         <module>Q1</module>
         <module>Task_Generic</module>
         <module>ModifiersDemo</module>
+        <module>SwingDemo</module>
     </modules>
 </project>
