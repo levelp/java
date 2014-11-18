@@ -1,5 +1,6 @@
 package fields;
 
+import annotations.Show;
 import simple.MyClass;
 
 import java.lang.reflect.Field;
@@ -8,21 +9,28 @@ import java.lang.reflect.Modifier;
 /**
  * Ввывод всех полей класса
  */
-public class ShowAllFields {
+public class ShowFieldsWithAnnotation {
     public static void main(String[] args) {
-        showAllFields(new MyClass());
+        showFields(new MyClass());
 
         MyClass myClass = new MyClass();
         myClass.publicIntField = 10;
         myClass.publicStringField = "Test";
-        showAllFields(myClass);
+        showFields(myClass);
     }
 
-    private static void showAllFields(Object obj) {
+    private static void showFields(Object obj) {
         Class c = obj.getClass();
         for (Field field : c.getDeclaredFields()) {
             int modifiers = 0;
             try {
+                Show show = field.getAnnotation(Show.class);
+                if (show == null) {
+                    System.out.println("skip field " + field.getName());
+                    continue;
+                }
+                System.out.println("Name = " + show.name());
+
                 modifiers = field.getModifiers();
                 if ((modifiers & Modifier.PRIVATE) != 0) {
                     System.out.print("private ");

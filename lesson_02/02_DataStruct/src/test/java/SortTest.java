@@ -7,7 +7,7 @@ import static org.junit.Assert.assertArrayEquals;
  */
 public class SortTest {
 
-    @Test
+    @Test(timeout = 10)
     public void testSortInt() {
         Integer[] ints = {2, 3, 1, 10};
         Sort<Integer> sortInt = new Sort<Integer>(ints);

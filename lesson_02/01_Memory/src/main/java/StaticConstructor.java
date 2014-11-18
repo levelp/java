@@ -11,24 +11,25 @@ public class StaticConstructor {
     static class MyClass {
         static int counter = 10;
         static int a = counter * 2;
+        static int cnt2 = a + 10;
+        String name = "Test " + cnt2;
+        static int countInstances = 0;
 
         static {
             //counter = 0;
             System.out.println("counter = " + counter);
             System.out.println("a = " + a);
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
                 a += i;
+            System.out.println("a = " + a);
         }
 
-        static int cnt2 = counter + 10;
-
-        int id;
-
-        String name = "Test";
+        int id = ++countInstances;
 
         public MyClass() {
             id = ++counter;
             System.out.println("id = " + id + "  " + name);
+            System.out.println("cnt2 = " + cnt2);
         }
     }
 }

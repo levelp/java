@@ -19,14 +19,18 @@ public class ShowClass {
 
     private static void showType(Object obj)
             throws Exception {
+        // По объекту получаем класс
         Class c = obj.getClass();
+        // Значение и имя класса
         System.out.println("value = " + obj +
                 "  ->  " + c.getName());
 
         try {
-            Object obj2 = Class.forName(c.getName()).
-                    newInstance();
-
+            // Получаем класс по имени класса
+            Class<?> aClass = Class.forName(c.getName());
+            // Пытаемся создать экземпляр класса
+            Object obj2 = aClass.newInstance();
+            // Выводим экземпляр класса
             System.out.println("obj2 = " + obj2);
         } catch (InstantiationException ex) {
             System.out.println(ex.getMessage());

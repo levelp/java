@@ -1,10 +1,14 @@
 package simple;
 
+import annotations.Show;
+
 /**
  * Класс для проверки работы Reflection API
  */
 public class MyClass {
+    @Show(name = "Поле1", spaces = 2)
     public int publicIntField;
+    @Show(spaces = 10)
     public String publicStringField;
     int packageLocalIntField;
     private int privateIntField = 100;

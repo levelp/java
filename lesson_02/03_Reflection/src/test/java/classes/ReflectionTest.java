@@ -1,6 +1,7 @@
 package classes;
 
 import org.junit.Test;
+import simple.MyClass;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -26,6 +27,16 @@ public class ReflectionTest {
         s.add("test1");
         Class c1 = s.getClass();
         assertEquals("java.util.HashSet", c1.getName());
+
+        showClass(1);
+        showClass(1.1);
+        showClass(1.2f);
+        showClass(true);
+        showClass(new MyClass());
+    }
+
+    private void showClass(Object object) {
+        System.out.println("object = " + object + " -> Class = " + object.getClass());
     }
 
 
@@ -37,6 +48,7 @@ public class ReflectionTest {
         Class cDoubleArray = Class.forName("[D");
         assertEquals("double[]", cDoubleArray.getCanonicalName());
         //Object obj = cDoubleArray.newInstance();
+
         Class cStringArray = Class.forName("[[Ljava.lang.String;");
         assertEquals("java.lang.String[][]", cStringArray.getCanonicalName());
         //Object string = cStringArray.newInstance();

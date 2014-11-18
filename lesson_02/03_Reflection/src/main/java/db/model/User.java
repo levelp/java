@@ -14,13 +14,19 @@ public class User {
     @Field("ID")
     public int id;
 
-    @Field("NAME")
+    @Field("ИМЯ")
     public String name;
 
-    @Field("PASSWORD")
+    //@Field("PASSWORD")
     public String password;
 
     public int tempVar;
+
+    @Field("Sdsds")
+    @Deprecated
+    public int m1() {
+        return 1;
+    }
 
 
 }
