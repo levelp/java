@@ -10,7 +10,9 @@ public class BinaryTreeTest {
     @Test
     public void lists() {
         // Интерфейс =  Класс с реализацией этого интерфейса
-        BinaryTree<Integer> ints = new BinaryTree<Integer>();
+        BinaryTree ints = new BinaryTree();
+        ints.addNode(5, "root");
+        System.out.println(ints.toString());
     }
 
 }
