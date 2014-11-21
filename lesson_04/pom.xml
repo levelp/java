@@ -15,6 +15,7 @@
         <module>02_JUnit3</module>
         <module>03_JavaInnerClasses</module>
         <module>04_JSP</module>
+        <module>06_maven</module>
     </modules>
 
     <build>

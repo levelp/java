@@ -9,9 +9,27 @@ import static org.junit.Assert.*;
  */
 public class ListTest {
     static <T> List<T> arrayToList(final T[] array) {
-        final List<T> l = new ArrayList<T>(array.length);
+        final List<T> l = new ArrayList<T>();
+        // Оптимизация: final List<T> l = new ArrayList<T>(array.length);
         Collections.addAll(l, array);
         return l;
+    }
+
+    @Test
+    public void oldList() {
+        List list = new ArrayList();
+        list.add(2);
+        list.add("Test");
+        list.add(2.3);
+        list.add(new MyClass());
+
+        assertEquals(4, list.size());
+        for (int i = 0; i < list.size(); ++i)
+            System.out.println("list[" + i + "] = " + list.get(i));
+
+        for (Object obj : list)
+            if (obj instanceof Integer)
+                System.out.println(obj);
     }
 
     /**
@@ -114,9 +132,22 @@ public class ListTest {
         // i.remove(); // java.lang.UnsupportedOperationException
 
         assertFalse("Элементы кончились", i.hasNext());
+
+        Iterator<Integer> integerIterator = list.iterator();
+        while (integerIterator.hasNext()) {
+            System.out.println(integerIterator.next());
+        }
+
     }
 
     private Integer[] listToArray(List<Integer> list) {
         return list.toArray(new Integer[list.size()]);
+    }
+
+    @Test
+    public void testMyClassInherit() {
+        List<MyClass> myClassList = new ArrayList<MyClass>();
+        myClassList.add(new MyClass());
+        myClassList.add(new MyClass2());
     }
 }

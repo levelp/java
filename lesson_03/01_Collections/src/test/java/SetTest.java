@@ -90,4 +90,13 @@ public class SetTest {
     private Integer[] setToArray(Set<Integer> list) {
         return list.toArray(new Integer[list.size()]);
     }
+
+    public static void main(String[] args) {
+        Set<String> strings = new HashSet<String>();
+        strings.add("Hi");
+        strings.add("Test");
+        strings.add("Hi");
+        for (String s : strings)
+            System.out.println(s);
+    }
 }
