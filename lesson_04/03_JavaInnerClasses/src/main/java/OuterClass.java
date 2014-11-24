@@ -46,9 +46,11 @@ public class OuterClass {
         // При определении анонимного класса применен полиморфизм - переменная listener
         // содержит экземпляр анонимного класса, реализующего существующий
         // интерфейс ActionListener
+        int localVar = 2;
         ActionListener listener = new ActionListener() {
             @Override
             public void actionPerformed(java.awt.event.ActionEvent actionEvent) {
+                System.out.println("localVar = " + localVar);
                 System.out.println("Эта строка выводится на экран каждые " + interval + " секунд");
             }
         };
@@ -63,9 +65,9 @@ public class OuterClass {
      * Может содержать статические поля, методы и классы, в отличие от других типов внутренних классов.
      */
     static class StaticInnerClass {
-        /*int getOuterField() {
-        return OuterClass.this.outerField; // Эта строка кода - ошибка компиляции
-        } */
+        //int getOuterField() {
+        //    return OuterClass.this.outerField; // Эта строка кода - ошибка компиляции
+        // }
 
         int getStaticOuterField() {
             return OuterClass.staticOuterField; // Строка кода синтаксически корректна

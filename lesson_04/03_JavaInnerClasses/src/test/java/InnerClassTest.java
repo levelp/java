@@ -18,10 +18,10 @@ public class InnerClassTest {
         MyInterface myInterface = new MyInterface() {
             @Override
             public void myMethod() {
-
+                System.out.println("InnerClassTest.myMethod");
             }
         };
 
-
+        myInterface.myMethod();
     }
 }

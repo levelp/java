@@ -28,6 +28,7 @@ public class JUnit3Demo extends TestCase {
 
     private final Map toHexStringData = new HashMap();
 
+    //@After
     protected void setUp() throws Exception {
         toHexStringData.put("", new byte[0]);
         toHexStringData.put("01020d112d7f", new byte[]{1, 2, 13, 17, 45, 127});

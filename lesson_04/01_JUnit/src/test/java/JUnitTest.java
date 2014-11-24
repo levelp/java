@@ -35,6 +35,11 @@ public class JUnitTest extends Assert {
         System.out.println("@BeforeClass - перед всеми тестами");
     }
 
+    @BeforeClass
+    public static void beforeClass2() {
+        System.out.println("@BeforeClass2 - перед всеми тестами");
+    }
+
     @AfterClass
     public static void afterClass() {
         System.out.println("@AfterClass - после всех тестов");
