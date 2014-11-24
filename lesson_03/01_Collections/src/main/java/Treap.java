@@ -91,10 +91,10 @@ public class Treap<T extends Comparable> implements SearchTree<T> {
     }
 
     /**
-     * Слияение
+     * Слияние
      *
-     * @param L
-     * @param R
+     * @param L левое поддерево
+     * @param R правое поддерево :)
      * @return
      */
     public static Treap Merge(Treap L, Treap R) {
@@ -115,7 +115,9 @@ public class Treap<T extends Comparable> implements SearchTree<T> {
         Treap[] gg = Split(x - 1);
         l = gg[0];
         r = gg[1];
-        r.Split(x, out m, out r);
+        Treap[] hh = r.Split(x);
+        m = hh[0];
+        r = hh[1];
         return Merge(l, r);
     }
 }
