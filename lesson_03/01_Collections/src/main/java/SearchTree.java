@@ -1,5 +1,5 @@
 /**
- * Дерево поиска
+ * Дерево поиска (интерфейс)
  */
 public interface SearchTree<T extends Comparable> {
     /**
@@ -18,7 +18,7 @@ public interface SearchTree<T extends Comparable> {
     boolean find(T value);
 
     /**
-     * @return Глубина дерево (максимаотное расстояние от корня до листа)
+     * @return Глубина дерево (максимальное расстояние от корня до листа)
      */
     int deep();
 }
