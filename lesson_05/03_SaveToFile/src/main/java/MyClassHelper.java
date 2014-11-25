@@ -12,11 +12,11 @@ public class MyClassHelper {
     /**
      * Запись объекта в XML-файл
      *
-     * @param obj
-     * @param filename
+     * @param obj      объект
+     * @param filename имя файла
      * @throws Exception
      */
-    public static void write(MyClass obj, String filename) throws Exception {
+    public static void write(Object obj, String filename) throws Exception {
         XMLEncoder encoder =
                 new XMLEncoder(
                         new BufferedOutputStream(
@@ -25,11 +25,11 @@ public class MyClassHelper {
         encoder.close();
     }
 
-    public static MyClass read(String filename) throws Exception {
+    public static Person read(String filename) throws Exception {
         XMLDecoder decoder =
                 new XMLDecoder(new BufferedInputStream(
                         new FileInputStream(filename)));
-        MyClass o = (MyClass) decoder.readObject();
+        Person o = (Person) decoder.readObject();
         decoder.close();
         return o;
     }

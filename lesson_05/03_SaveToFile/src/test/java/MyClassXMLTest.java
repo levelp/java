@@ -12,7 +12,7 @@ public class MyClassXMLTest extends Assert {
 
     @Test
     public void testSaveLoad() throws Exception {
-        MyClass f1 = new MyClass();
+        Person f1 = new Person();
         f1.setName("Петя");
         MyClassHelper.write(f1, FILENAME);
 
@@ -22,7 +22,7 @@ public class MyClassXMLTest extends Assert {
         assertTrue(new File(FILENAME).isFile());
 
         // Считываем обратно
-        MyClass f2 = MyClassHelper.read(FILENAME);
+        Person f2 = MyClassHelper.read(FILENAME);
         System.out.println("Foo" + f2.getName());
     }
 

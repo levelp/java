@@ -24,4 +24,19 @@ public class TextSaveLoadTest extends Assert {
         String result = TextSaveLoad.load(fileName);
         assertEquals(sample, result);
     }
+
+    @Test
+    public void testSaveLoadObject() throws IOException {
+        MyClass myClass = new MyClass();
+        myClass.b = true;
+        myClass.d = 1.2;
+        myClass.i = 23;
+        myClass.str = "Строчка";
+        String fileName = "object.txt";
+
+        ObjectSaveLoad.save(fileName, myClass);
+
+        MyClass result = (MyClass) ObjectSaveLoad.load(fileName);
+        assertEquals(myClass, result);
+    }
 }
