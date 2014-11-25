@@ -13,7 +13,7 @@ public class TextSaveLoad {
      * @param text     текст
      */
     public static void save(String fileName, String text) throws IOException {
-
+        // Используйте: OutputStreamWriter
     }
 
     /**
