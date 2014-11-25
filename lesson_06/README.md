@@ -14,9 +14,10 @@ JMM. Потоки выполнения. Synchronize, final, volatile
 
 Домашнее задание
 ---------------- 
-* Сохранение в файл и загрузка объекта из файла 
+* Сохранение в файл и загрузка объекта из файла
+** object.txt ** 
 ```
-object.txt
+MyClass
 str: Строчка
 i: 23
 d: 1.2
@@ -42,7 +43,3 @@ b: true
 * JDK concurrent package
 * Обзор java.util.concurrent.
 * Синхронизация потоков
-
-
-Tomcat 8.0.15 - не запускается 
-
