@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 /**
- *
+ * Сохранение в XML-файл
  */
 public class XMLSerialize {
 
