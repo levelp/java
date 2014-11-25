@@ -1,4 +1,4 @@
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Класс, который умеет сохранять в файл
@@ -14,6 +14,9 @@ public class TextSaveLoad {
      */
     public static void save(String fileName, String text) throws IOException {
         // Используйте: OutputStreamWriter
+        OutputStreamWriter writer = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream(fileName)), "UTF-8");
+        writer.write(text);
+        writer.close();
     }
 
     /**
@@ -23,6 +26,12 @@ public class TextSaveLoad {
      * @return загруженный текст
      */
     public static String load(String fileName) throws IOException {
-        return null;
+        InputStreamReader reader = new InputStreamReader(new BufferedInputStream(new FileInputStream(fileName)));
+        StringBuilder res = new StringBuilder();
+        while (reader.ready()) {
+            int charCode = reader.read();
+            res.append(Character.toChars(charCode));
+        }
+        return res.toString();
     }
 }

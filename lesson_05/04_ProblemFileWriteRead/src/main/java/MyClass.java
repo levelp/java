@@ -3,7 +3,12 @@
  */
 public class MyClass {
     public String str;
+    public byte aByte;
+    public short aShort;
     public int i;
-    public double d;
+    public long aLong;
+    public float aFloat;
+    public double aDouble;
     public boolean b;
+    public char aChar;
 }
