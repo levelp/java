@@ -62,7 +62,7 @@ public class BinaryTree<T> {
         }
     }
 
-    public Node findNode(int key) {
+    public String findNode(int key) {
         Node focusNode = root;
 
         while (focusNode.key !=  key) {
@@ -77,19 +77,25 @@ public class BinaryTree<T> {
             }
         }
 
-        return focusNode;
+
+
+        return focusNode.name;
     }
 
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
-        tree.addNode(5, "boss");
-        tree.addNode(6, "right");
-        tree.addNode(1, "left");
+        tree.addNode(5, "five");
+        tree.addNode(6, "six");
+        tree.addNode(1, "one");
+        tree.addNode(10, "ten");
+        tree.addNode(13, "thirteen");
+        tree.addNode(2, "two");
 
         tree.postOrderTraverseTree(tree.root);
-
+/*
         System.out.println("Searching for 5");
         System.out.println(tree.findNode(5));
+    */
     }
 
 }

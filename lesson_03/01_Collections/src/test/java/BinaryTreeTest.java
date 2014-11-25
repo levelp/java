@@ -1,4 +1,5 @@
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  * Список элементов
@@ -9,10 +10,16 @@ public class BinaryTreeTest {
      */
     @Test
     public void lists() {
-        // Интерфейс =  Класс с реализацией этого интерфейса
-        BinaryTree ints = new BinaryTree();
-        ints.addNode(5, "root");
-        System.out.println(ints.toString());
+        BinaryTree tree = new BinaryTree();
+        tree.addNode(5, "five");
+        tree.addNode(6, "six");
+        tree.addNode(1, "one");
+        tree.addNode(10, "ten");
+        tree.addNode(13, "thirteen");
+        tree.addNode(2, "two");
+
+        assertEquals("five", tree.findNode(5));
+        assertEquals(null, tree.findNode(99));
     }
 
 }
