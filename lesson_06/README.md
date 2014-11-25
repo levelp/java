@@ -9,17 +9,31 @@ Date, Calendar, DateFormat (Format). Joda-Time
 JMM. Потоки выполнения. Synchronize, final, volatile
 ----------------------------------------------------
 
+*  FileStorage: сделать JUnit тесты DAO.
+
+
 Домашнее задание
 ---------------- 
-* Сделать JUnit тесты DAO.
-* Загрузить Tomcat
-
+* Сохранение в файл и загрузка объекта из файла 
+```
+object.txt
+str: Строчка
+i: 23
+d: 1.2
+b: true
+```
+* Дополнить в FileStorage реализацию методов save/load.
+* Дополнить реализацию FileStorage методами delete, update, getList.
+* Загрузить и настроить Tomcat.
 **tomcat\conf\tomcat-users.xml**
 
 ``` xml
   <role rolename="manager-gui"/>
   <user username="admin" password="123" roles="manager-gui"/>
 ```
+* Изучить примеры к Tomcat
+  * tomcat\webapps\examples\jsp\jsp2\el\composite.jsp - путь к примеру в папке.
+  * http://localhost:8080/examples/jsp/jsp2/el/composite.jsp - путь к примеру в браузере.
 
 Литература 
 ----------
