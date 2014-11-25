@@ -14,6 +14,11 @@ JMM. Потоки выполнения. Synchronize, final, volatile
 * Сделать JUnit тесты DAO.
 * Загрузить Tomcat
 
+``` xml
+  <role rolename="manager-gui"/>
+  <user username="admin" password="123" roles="manager-gui"/>
+```
+
 Литература 
 ----------
 * JMM

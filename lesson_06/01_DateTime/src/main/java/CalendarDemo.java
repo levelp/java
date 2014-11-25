@@ -29,6 +29,9 @@ public class CalendarDemo {
         System.out.println("Секунда: " +
                 now.get(Calendar.SECOND));
 
+        SimpleDateFormat dateFormat =
+                new SimpleDateFormat("'Дата и время:' dd.MM.yyyy HH:mm:ss");
+        System.out.println(dateFormat.format(now.getTime()));
 
         SimpleDateFormat rusMonth =
                 new SimpleDateFormat("MMMMM", LOCALE_RU);
@@ -41,7 +44,6 @@ public class CalendarDemo {
                 (calendar.get(Calendar.MONTH) + 1)
         );
 
-
         // Дата через 2 месяца
         Calendar afterTwoMonths = (Calendar) now.clone();
         afterTwoMonths.add(Calendar.MONTH, 2);
@@ -49,5 +51,9 @@ public class CalendarDemo {
         SimpleDateFormat russianDate =
                 new SimpleDateFormat("dd.MM.yyyy");
         System.out.println(russianDate.format(afterTwoMonths.getTime()));
+
+        Calendar date2 = (Calendar) now.clone();
+        date2.add(Calendar.HOUR, -30);
+        System.out.println(dateFormat.format(date2.getTime()));
     }
 }
