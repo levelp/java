@@ -6,21 +6,21 @@ public class MyClass {
     private int age;
 
     /**
-     * Setter
-     *
-     * @param s новое имя
-     */
-    public void setName(String s) {
-        name = s;
-    }
-
-    /**
      * Getter
      *
      * @return получаем имя
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * Setter
+     *
+     * @param s новое имя
+     */
+    public void setName(String s) {
+        name = s;
     }
 
     public int getAge() {
