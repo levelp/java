@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * AtomicInteger
  */
-public class Main {
+public class AtomicDemo {
     static final Object LOCK = new Object();
     static final AtomicInteger ATOMIC_SUM = new AtomicInteger();
     static final CountDownLatch CDL = new CountDownLatch(100000);

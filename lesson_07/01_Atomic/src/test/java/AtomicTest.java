@@ -8,10 +8,14 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  *
  */
-public class MainTest extends Assert {
+public class AtomicTest extends Assert {
 
+    /**
+     * Типы данных с "атомарными" операциями из пакета:
+     * java.util.concurrent.atomic
+     */
     @Test
-    public void aVoid() {
+    public void testAtomicDatatypes() {
         AtomicInteger atomicInteger = new AtomicInteger(0);
         assertEquals(1, atomicInteger.incrementAndGet());
         assertEquals(2, atomicInteger.incrementAndGet());
@@ -24,4 +28,6 @@ public class MainTest extends Assert {
         assertEquals(12, integerArray.addAndGet(1, 10));
 
     }
+
+
 }
