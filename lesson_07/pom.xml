@@ -11,10 +11,11 @@
     <name>Java Junior Developer 7</name>
 
     <modules>
-        <module>01_DateTime</module>
-        <module>02_StringBuilder</module>
-        <module>03_SaveToFile</module>
-        <module>04_ProblemFileWriteRead</module>
+        <module>01_Atomic</module>
+        <module>02_Threads</module>
+        <module>03_Properties</module>
+        <module>SpringMVC</module>
+        <module>webapp</module>
     </modules>
 
     <build>

@@ -5,25 +5,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  * AtomicInteger
  */
 public class Main {
-    static int sum = 0;
-    static volatile int globalI;
     static final Object LOCK = new Object();
     static final AtomicInteger ATOMIC_SUM = new AtomicInteger();
     static final CountDownLatch CDL = new CountDownLatch(100000);
+    static int sum = 0;
+    static volatile int globalI;
     static int threadCount = 0;
-
-    static class MyThread extends Thread {
-        @Override
-        public void run() {
-            threadCount++;
-            for (int i = 0; i < 100; ++i) {
-                globalI++;
-                inc();
-                ATOMIC_SUM.incrementAndGet();
-                CDL.countDown();
-            }
-        }
-    }
 
     public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i < 1000; i++) {
@@ -44,6 +31,19 @@ public class Main {
     static void inc() {
         synchronized (LOCK) {
             sum++;
+        }
+    }
+
+    static class MyThread extends Thread {
+        @Override
+        public void run() {
+            threadCount++;
+            for (int i = 0; i < 100; ++i) {
+                globalI++;
+                inc();
+                ATOMIC_SUM.incrementAndGet();
+                CDL.countDown();
+            }
         }
     }
 }
