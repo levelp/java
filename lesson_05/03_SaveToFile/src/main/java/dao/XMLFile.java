@@ -10,23 +10,7 @@ import java.io.FileOutputStream;
 /**
  * Вспомогательный класс, который умеет сохранять и загружать объекты в XML
  */
-public class XMLFile {
-    /**
-     * Запись объекта в XML-файл
-     *
-     * @param obj      объект
-     * @param filename имя файла
-     * @throws Exception
-     */
-    public static void save(Object obj, String filename) throws Exception {
-        XMLEncoder encoder =
-                new XMLEncoder(
-                        new BufferedOutputStream(
-                                new FileOutputStream(filename)));
-        encoder.writeObject(obj);
-        encoder.close();
-    }
-
+public class XMLFile<T> {
     /**
      * Загрузка объекта из файла
      *
@@ -34,12 +18,29 @@ public class XMLFile {
      * @return объект
      * @throws Exception
      */
-    public static Object load(String filename) throws Exception {
+    @SuppressWarnings("unchecked")
+    public T load(String filename) throws Exception {
         XMLDecoder decoder =
                 new XMLDecoder(new BufferedInputStream(
                         new FileInputStream(filename)));
-        Object object = decoder.readObject();
+        T object = (T) decoder.readObject();
         decoder.close();
         return object;
+    }
+
+    /**
+     * Запись объекта в XML-файл
+     *
+     * @param obj      объект
+     * @param filename имя файла
+     * @throws Exception
+     */
+    public void save(T obj, String filename) throws Exception {
+        XMLEncoder encoder =
+                new XMLEncoder(
+                        new BufferedOutputStream(
+                                new FileOutputStream(filename)));
+        encoder.writeObject(obj);
+        encoder.close();
     }
 }

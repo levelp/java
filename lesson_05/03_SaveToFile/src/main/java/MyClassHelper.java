@@ -25,6 +25,7 @@ public class MyClassHelper {
     }
 
     public static Person read(String filename) throws Exception {
-        return (Person) XMLFile.load(filename);
+        XMLFile<Person> xmlFile = new XMLFile<Person>();
+        return xmlFile.load(filename);
     }
 }
