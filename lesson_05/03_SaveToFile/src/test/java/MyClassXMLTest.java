@@ -25,6 +25,4 @@ public class MyClassXMLTest extends Assert {
         Person f2 = MyClassHelper.read(FILENAME);
         System.out.println("Foo" + f2.getName());
     }
-
-
 }

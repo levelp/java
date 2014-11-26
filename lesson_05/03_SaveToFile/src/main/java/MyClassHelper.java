@@ -1,8 +1,7 @@
-import java.beans.XMLDecoder;
+import dao.XMLFile;
+
 import java.beans.XMLEncoder;
-import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 /**
@@ -26,11 +25,6 @@ public class MyClassHelper {
     }
 
     public static Person read(String filename) throws Exception {
-        XMLDecoder decoder =
-                new XMLDecoder(new BufferedInputStream(
-                        new FileInputStream(filename)));
-        Person o = (Person) decoder.readObject();
-        decoder.close();
-        return o;
+        return (Person) XMLFile.load(filename);
     }
 }

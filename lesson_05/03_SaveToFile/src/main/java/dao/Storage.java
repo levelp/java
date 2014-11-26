@@ -10,34 +10,34 @@ public interface Storage<T extends Entity> {
     /**
      * Сохранение объекта в постоянное хранилище
      *
-     * @param object
+     * @param object объект
      */
-    void save(T object);
+    void save(T object) throws Exception;
 
     /**
      * Загрузка из хранилища
      *
      * @param id
-     * @return
+     * @return объект
      */
-    T load(int id);
+    T load(int id) throws Exception;
 
     /**
      * Обновление сущности в хранилище
      *
-     * @param object
+     * @param object объект
      */
-    void update(T object);
+    void update(T object) throws Exception;
 
     /**
      * Удаление объекта
      *
      * @param object
      */
-    void delete(T object);
+    void delete(T object) throws Exception;
 
     /**
      * @return список всех объектов
      */
-    List<T> getList();
+    List<T> getList() throws Exception;
 }
