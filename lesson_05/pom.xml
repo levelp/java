@@ -15,6 +15,7 @@
         <module>02_StringBuilder</module>
         <module>03_SaveToFile</module>
         <module>04_ProblemFileWriteRead</module>
+        <module>SaveLoadObjectToFile</module>
     </modules>
 
     <build>
