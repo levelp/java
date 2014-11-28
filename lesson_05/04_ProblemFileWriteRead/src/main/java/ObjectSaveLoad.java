@@ -52,16 +52,21 @@ public class ObjectSaveLoad {
 
         while (scanner.hasNextLine()) {
             //Pattern hh = Pattern.compile("(\\w+):");
-            String name = scanner.next();
-            name = name.substring(0, name.length() - 1);
+            String nameAndType = scanner.next();
+            String s[] = nameAndType.split(":");
+            String name = s[0];
+            String type = s[1];
             System.out.println("Имя поля: " + name);
+
+            // Пропускаем "="
+            scanner.next();
 
             String value = scanner.next();
             System.out.println("Значение поля: " + value);
 
             scanner.nextLine();
 
-            setField(object, name, value);
+            setField(object, name, value, type);
         }
 
         return object;
@@ -73,12 +78,16 @@ public class ObjectSaveLoad {
      * @param object    Объект
      * @param fieldName Имя поля
      * @param value     Значение поля
+     * @param fileType  Тип из файла
      * @throws NoSuchFieldException
      * @throws IllegalAccessException
      */
-    private static void setField(Object object, String fieldName, String value) throws NoSuchFieldException, IllegalAccessException {
+    private static void setField(Object object, String fieldName, String value, String fileType) throws NoSuchFieldException, IllegalAccessException {
         Field field = object.getClass().getField(fieldName);
         Class<?> type = field.getType();
+        if (!type.getName().equals(fileType)) {
+            throw new RuntimeException("Неверный формат файла");
+        }
         if (type.equals(Byte.TYPE))
             field.setByte(object, Byte.parseByte(value));
         else if (type.equals(Short.TYPE))

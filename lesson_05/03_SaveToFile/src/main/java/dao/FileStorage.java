@@ -10,11 +10,15 @@ import java.util.Map;
  * Хранение объектов в файле
  */
 public class FileStorage<T extends Entity> implements Storage<T> {
-    private final Class<T> clazz;
+    /**
+     * Имя файла для хранения объектов
+     */
+    private final String fileName;
+
     XMLFile<Map<Integer, T>> xmlFile = new XMLFile<Map<Integer, T>>();
 
     public FileStorage(Class<T> clazz) {
-        this.clazz = clazz;
+        this.fileName = clazz.getName() + ".xml";
     }
 
     /**
@@ -30,15 +34,8 @@ public class FileStorage<T extends Entity> implements Storage<T> {
         saveToFile(map);
     }
 
-    /**
-     * @return имя файла для хранения объектов
-     */
-    private String getFileName() {
-        return clazz.getName() + ".xml";
-    }
-
     private void saveToFile(Map<Integer, T> map) throws Exception {
-        xmlFile.save(map, getFileName());
+        xmlFile.save(map, fileName);
     }
 
     /**
@@ -59,7 +56,7 @@ public class FileStorage<T extends Entity> implements Storage<T> {
 
     private Map<Integer, T> loadFromFile() throws Exception {
         try {
-            return xmlFile.load(getFileName());
+            return xmlFile.load(fileName);
         } catch (FileNotFoundException ex) {
             return new HashMap<Integer, T>();
         }

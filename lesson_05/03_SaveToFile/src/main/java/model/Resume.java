@@ -7,14 +7,14 @@ import dao.Entity;
  */
 public class Resume implements Entity {
     static int counter = 0;
-
-    private int id = ++counter;
     public String name;
+    private int id;
 
     public Resume() {
     }
 
     public Resume(String name) {
+        id = ++counter;
         this.name = name;
     }
 

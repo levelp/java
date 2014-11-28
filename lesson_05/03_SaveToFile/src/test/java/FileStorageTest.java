@@ -11,7 +11,6 @@ import static org.junit.Assert.assertNull;
  */
 public class FileStorageTest {
 
-
     @Test
     public void testResume() throws Exception {
         Storage<Resume> storage = new FileStorage<Resume>(Resume.class);
