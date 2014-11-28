@@ -16,7 +16,10 @@ public class ObjectSaveLoad {
      */
     public static void save(String fileName, Object object) throws IOException, IllegalAccessException {
         // Используйте: OutputStreamWriter
-        OutputStreamWriter writer = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream(fileName)), "UTF-8");
+        OutputStreamWriter writer = new OutputStreamWriter(
+                new BufferedOutputStream(
+                        new FileOutputStream(fileName)
+                ), "UTF-8");
         // Через Reflection API получаем класс
         Class<?> aClass = object.getClass();
         writer.write(aClass.getName() + "\n");
@@ -24,7 +27,8 @@ public class ObjectSaveLoad {
         for (Field field : aClass.getDeclaredFields()) {
             // Получаем значение поля
             String value = field.get(object).toString();
-            writer.write(String.format("%s: %s\n", field.getName(), value));
+            writer.write(String.format("%s:%s = %s\n", field.getName(),
+                    field.getType().getName(), value));
         }
         // Закрываем файл
         writer.close();

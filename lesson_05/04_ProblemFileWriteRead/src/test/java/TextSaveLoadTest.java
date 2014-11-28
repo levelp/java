@@ -36,6 +36,7 @@ public class TextSaveLoadTest extends Assert {
         myClass.aLong = 12312L;
         myClass.aFloat = 3.22f;
         myClass.aDouble = 1.2;
+        myClass.aChar = 'G';
         String fileName = "object.txt";
 
         ObjectSaveLoad.save(fileName, myClass);
@@ -46,5 +47,6 @@ public class TextSaveLoadTest extends Assert {
         assertEquals(myClass.aFloat, result.aFloat, 1e-15);
         assertEquals(myClass.aDouble, result.aDouble, 1e-15);
         assertEquals(myClass.i, result.i);
+        assertEquals(myClass.aChar, result.aChar);
     }
 }
