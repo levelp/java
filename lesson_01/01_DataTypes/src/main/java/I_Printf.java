@@ -34,7 +34,9 @@ public class I_Printf {
 
         double d = 1.1;
         System.out.printf("%-10.3f%n", d);
+
         //
+        System.out.printf("%e%n", d);
 
     }
 }
