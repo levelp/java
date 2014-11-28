@@ -14,12 +14,11 @@ public class NewLineTest {
     }
 
     public static void main(String[] args) {
-        show("\n");
-        show("\r\n");
+        show("\n");  // 0 10 LF
+        show("\r\n"); // 0 13 CR + 1 10 LF
         show("%n");
         show("\r");
         show(System.getProperty("line.separator"));
-
     }
 
     private static void show(String s) {
