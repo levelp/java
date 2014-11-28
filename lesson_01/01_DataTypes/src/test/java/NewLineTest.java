@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * Перевод строки на разных платформах
  */
 public class NewLineTest {
 
@@ -16,9 +16,9 @@ public class NewLineTest {
     public static void main(String[] args) {
         show("\n");  // 0 10 LF
         show("\r\n"); // 0 13 CR + 1 10 LF
-        show("%n");
-        show("\r");
-        show(System.getProperty("line.separator"));
+        show("\r"); // 0 13 CR
+        show("%n"); // Windows: 0 13 CR + 1 10 LF
+        show(System.getProperty("line.separator")); // Windows: 0 13 CR + 1 10 LF
     }
 
     private static void show(String s) {
