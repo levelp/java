@@ -74,7 +74,8 @@ public class FileStorage<T extends Entity> implements Storage<T> {
     public void update(T object) throws Exception {
         System.out.println("Update: " + object);
         Map<Integer, T> map = loadFromFile();
-        map.replace(object.getId(), object);
+        map.remove(object.getId());
+        map.put(object.getId(), object);
         saveToFile(map);
     }
 
