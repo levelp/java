@@ -18,7 +18,10 @@ public class NewLineTest {
         show("\r\n"); // 0 13 CR + 1 10 LF
         show("\r"); // 0 13 CR
         show("%n"); // Windows: 0 13 CR + 1 10 LF
-        show(System.getProperty("line.separator")); // Windows: 0 13 CR + 1 10 LF
+        // MacOSX: 0 10 LF
+        show(System.getProperty("line.separator"));
+        // Windows: 0 13 CR + 1 10 LF
+        // MacOSX: 0 10 LF
     }
 
     private static void show(String s) {
