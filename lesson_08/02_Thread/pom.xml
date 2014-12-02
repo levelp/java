@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>levelp</groupId>
-    <artifactId>02_threads</artifactId>
+    <artifactId>02_Thread</artifactId>
     <version>1.0.0</version>
 
     <properties>

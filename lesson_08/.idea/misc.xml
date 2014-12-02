@@ -3,14 +3,11 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/webapp" />
   </component>
-  <component name="IdProvider" IDEtalkID="D7BB48B05702E5DE8218E23AFC8B7BCD" />
+  <component name="IdProvider" IDEtalkID="40AF9AFA433C9B440DD7DD84705C1353" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
