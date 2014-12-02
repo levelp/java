@@ -12,7 +12,7 @@
 
     <modules>
         <module>01_Atomic</module>
-        <module>02_Threads</module>
+        <module>02_Thread</module>
         <module>03_Properties</module>
         <module>SpringMVC</module>
         <module>webapp</module>
