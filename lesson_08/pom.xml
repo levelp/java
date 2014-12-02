@@ -11,10 +11,11 @@
     <name>Java Junior Developer 8</name>
 
     <modules>
-        <module>01_DateTime</module>
-        <module>02_StringBuilder</module>
-        <module>03_SaveToFile</module>
-        <module>04_ProblemFileWriteRead</module>
+        <module>01_Atomic</module>
+        <module>02_Threads</module>
+        <module>03_Properties</module>
+        <module>SpringMVC</module>
+        <module>webapp</module>
     </modules>
 
     <build>
@@ -24,8 +25,8 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
+                        <source>1.7</source>
+                        <target>1.7</target>
                     </configuration>
                 </plugin>
             </plugins>
