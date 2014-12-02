@@ -23,7 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="01_Atomic" />
-        <module name="02_threads" />
+        <module name="02_Thread" />
         <module name="03_Properties" />
         <module name="SpringMVC" />
         <module name="webapp" />
