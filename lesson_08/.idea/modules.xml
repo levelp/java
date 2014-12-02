@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Atomic/01_Atomic.iml" filepath="$PROJECT_DIR$/01_Atomic/01_Atomic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_Threads/02_Threads.iml" filepath="$PROJECT_DIR$/02_Threads/02_Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Thread/02_Thread.iml" filepath="$PROJECT_DIR$/02_Thread/02_Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_Properties/03_Properties.iml" filepath="$PROJECT_DIR$/03_Properties/03_Properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/WebCalc/WebCalc.iml" filepath="$PROJECT_DIR$/WebCalc/WebCalc.iml" />
