@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_JUnit/01_JUnit.iml" filepath="$PROJECT_DIR$/01_JUnit/01_JUnit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_JUnit3/02_JUnit3.iml" filepath="$PROJECT_DIR$/02_JUnit3/02_JUnit3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_JavaInnerClasses/03_JavaInnerClasses.iml" filepath="$PROJECT_DIR$/03_JavaInnerClasses/03_JavaInnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_JSP/04_JSP.iml" filepath="$PROJECT_DIR$/04_JSP/04_JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_maven/06_maven.iml" filepath="$PROJECT_DIR$/06_maven/06_maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_04.iml" filepath="$PROJECT_DIR$/lesson_04.iml" />
+    </modules>
+  </component>
+</project>
+

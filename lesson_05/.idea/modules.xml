@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Exceptions/01_Exceptions.iml" filepath="$PROJECT_DIR$/01_Exceptions/01_Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_StringBuilder/02_StringBuilder.iml" filepath="$PROJECT_DIR$/02_StringBuilder/02_StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_SaveToFile/03_SaveToFile.iml" filepath="$PROJECT_DIR$/03_SaveToFile/03_SaveToFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_ProblemFileWriteRead/04_ProblemFileWriteRead.iml" filepath="$PROJECT_DIR$/04_ProblemFileWriteRead/04_ProblemFileWriteRead.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_05.iml" filepath="$PROJECT_DIR$/lesson_05.iml" />
+    </modules>
+  </component>
+</project>
+

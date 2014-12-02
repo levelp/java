@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Atomic/01_Atomic.iml" filepath="$PROJECT_DIR$/01_Atomic/01_Atomic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Threads/02_Threads.iml" filepath="$PROJECT_DIR$/02_Threads/02_Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Properties/03_Properties.iml" filepath="$PROJECT_DIR$/03_Properties/03_Properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringHibernateMySQL/SpringHibernateMySQL.iml" filepath="$PROJECT_DIR$/SpringHibernateMySQL/SpringHibernateMySQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringHibernatePostgeSQL/SpringHibernatePostgeSQL.iml" filepath="$PROJECT_DIR$/SpringHibernatePostgeSQL/SpringHibernatePostgeSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC/SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_07.iml" filepath="$PROJECT_DIR$/lesson_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapp/webapp.iml" filepath="$PROJECT_DIR$/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_DateTime/01_DateTime.iml" filepath="$PROJECT_DIR$/01_DateTime/01_DateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebServiceDemo/WebServiceDemo.iml" filepath="$PROJECT_DIR$/WebServiceDemo/WebServiceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_06.iml" filepath="$PROJECT_DIR$/lesson_06.iml" />
+    </modules>
+  </component>
+</project>
+

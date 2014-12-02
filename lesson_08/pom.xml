@@ -16,6 +16,7 @@
         <module>03_Properties</module>
         <module>SpringMVC</module>
         <module>webapp</module>
+        <module>WebCalc</module>
     </modules>
 
     <build>
