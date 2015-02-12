@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="00_HelloWorld" />
-        <module name="01_DataTypes" />
         <module name="02_Cycles" />
         <module name="03_OOP" />
         <module name="04_JUnit" />
@@ -43,4 +42,3 @@
     </bytecodeTargetLevel>
   </component>
 </project>
-

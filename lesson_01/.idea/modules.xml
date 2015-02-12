@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" filepath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/01_DataTypes/01_DataTypes.iml" filepath="$PROJECT_DIR$/01_DataTypes/01_DataTypes.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_Cycle/02_Cycles.iml" filepath="$PROJECT_DIR$/02_Cycle/02_Cycles.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_OOP/03_OOP.iml" filepath="$PROJECT_DIR$/03_OOP/03_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_JUnit/04_JUnit.iml" filepath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" />
@@ -19,4 +18,3 @@
     </modules>
   </component>
 </project>
-

@@ -1,4 +1,4 @@
-import package1.MyClass;
+import p00_helloworld.package1.MyClass;
 
 /**
  * Тестирование
