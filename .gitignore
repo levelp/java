@@ -21,6 +21,7 @@ private
 build
 dist
 out
+target
 
 # Log-files
 *.log
