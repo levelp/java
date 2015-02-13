@@ -15,3 +15,26 @@ Java->class->JVM. Первое приложение Hello World. Package.
 8. **char** - символ (2 байта) '\u0000'..'\uffff'
 
 + класс String
+
+Циклы
+-----
+``` java
+    // Цикл с предусловием
+        int N = 6;
+        System.out.print("N = " + N + " = (inverse binary) = ");
+        while (N > 0) {
+            System.out.print("" + N % 2);
+            N /= 2;
+        }
+        System.out.println();
+```
+
+``` java
+// Цикл с постусловием
+        int x = 1000;
+        do {
+            x -= 99;
+            System.out.println("x = " + x);
+        } while (x > 10);
+```
+

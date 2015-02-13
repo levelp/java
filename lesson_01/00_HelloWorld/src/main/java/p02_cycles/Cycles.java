@@ -1,3 +1,5 @@
+package p02_cycles;
+
 /**
  * Циклы: while, do while, for
  */
