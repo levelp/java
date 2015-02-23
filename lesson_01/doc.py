@@ -12,7 +12,7 @@ def lang(extension):
         return 'cpp'
     if extension == '.java':
         return 'java'
-    raise "!! " + extension
+    print("TODO: doc.py Сделать обработчик **" + extension + "**");
 
 
 def get_extension(file_name):
