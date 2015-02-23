@@ -6,8 +6,8 @@ package p02_cycles;
 public class Cycles {
 
     public static void main(String[] args) {
-        //-->
         // Цикл с предусловием
+        //-->
         int N = 6;
         System.out.print("N = " + N + " = (inverse binary) = ");
         while (N > 0) {
@@ -17,8 +17,8 @@ public class Cycles {
         System.out.println();
         //<--
 
-        //-->
         // Цикл с постусловием
+        //-->
         int x = 1000;
         do {
             x -= 99;
@@ -26,8 +26,8 @@ public class Cycles {
         } while (x > 10);
         //<--
 
-        //-->
         // Цикл for
+        //-->
         System.out.println(" Таблица умножения ");
         System.out.println("===================");
         for (int i = 1; i < 10; i++) {
@@ -36,7 +36,6 @@ public class Cycles {
             }
             System.out.println();
         }
-        //<--
         //     Таблица умножения
         //    ===================
         //  1  2  3  4  5  6  7  8  9
@@ -48,6 +47,7 @@ public class Cycles {
         //  7 14 21 28 35 42 49 56 63
         //  8 16 24 32 40 48 56 64 72
         //  9 18 27 36 45 54 63 72 81
+        //<--
     }
 
 }
