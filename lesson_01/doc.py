@@ -7,16 +7,17 @@ PREFIX = u'//'
 sys.stdout = open("README.md", "w", encoding="utf-8")
 
 
-def lang(extension):
+def get_extension(file_name):
+    return os.path.splitext(file_name)[1]
+
+def lang(file_name):
+    extension = get_extension(file_name)
     if extension in ['.cpp', '.c', '.h', '.hpp']:
         return 'cpp'
     if extension == '.java':
         return 'java'
     return "TODO: doc.py Сделать обработчик **" + extension + "**";
 
-
-def get_extension(file_name):
-    return os.path.splitext(file_name)[1]
 
 
 def parse(file_name):

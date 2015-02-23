@@ -135,7 +135,7 @@ Java->class->JVM. Первое приложение Hello World. Package.
 ```
 
 Первая программа на Java
-``` TODO: doc.py Сделать обработчик **.\00_HelloWorld\src\main\java\p00_helloworld\HelloWorld.java**
+``` java
 public class HelloWorld {
     public static void main(String[] args) {
         /*
