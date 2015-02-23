@@ -16,9 +16,9 @@
 
 **Сайты**
 * http://vk.com/java_course - группа для участников курса
-* http://levelp.ru/courses/programmirovanie/java-junior-developer/ - 
+* http://levelp.ru/courses/programmirovanie/java-junior-developer/ -
 курс Java Junior Developer на сайте LevelUp
-* http://levelp.ru/courses/programmirovanie/basics-of-programming-java/ - 
+* http://levelp.ru/courses/programmirovanie/basics-of-programming-java/ -
 курс "Основы программирования и алгоритмизации на языке Java" на на сайте LevelUp
 * http://javarush.ru - курс Java для начинающих (http://info.javarush.ru/page/learning_plan/ - план обучения)
 * http://www.intuit.ru/studies/courses/16/16/info - "Программирование на Java" курс лекций на ИНТУИТ
@@ -28,12 +28,12 @@
 **Книги по Java**
 * Программирование на Java и C# для студента, О. Герман, Ю. Герман: http://www.bookvoed.ru/book?id=3819902
 * Head First Java (Java, A Beginner's Guide).
-* Java. The Complete Reference. 8th Edition / Java. Полное руководство. 8-е издание - http://rutracker.org/forum/viewtopic.php?t=4164907 - 
+* Java. The Complete Reference. 8th Edition / Java. Полное руководство. 8-е издание - http://rutracker.org/forum/viewtopic.php?t=4164907 -
 * Test Driven Development (Kent Beck)
 * Thinking in Java (Философия Java) Брюс Эккель: http://www.bookvoed.ru/book?id=422984
 * Искусство программирования на Java, Герберт Шилдт, Джеймс Холмс: http://www.bookvoed.ru/book?id=3483133
 * Java EE 7. Основы, Гупта А.: http://www.bookvoed.ru/book?id=6093759
-* Effective Java, автор Joshua Bloch. 
+* Effective Java, автор Joshua Bloch.
 * Программист Прагматик (The Pragmatic Programmer) - подробно раскрыты общие методики программирования (книга похожа на сборник полезных советов)
 * Java concurrency in practice. - Многопоточность в Java.
 http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601
@@ -55,34 +55,35 @@ http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601
 ``` bat
 REM Командный файл для "тихой" установки Java под Windows
 REM /s - silent mode (не задавая вопросов)
-REM INSTALLDIR - куда ставить JDK 
+REM INSTALLDIR - куда ставить JDK
 REM INSTALLDIRPUBJRE - куда ставить JRE
-jdk-8u20-windows-x64.exe /s INSTALLDIR=D:\JDK /INSTALLDIRPUBJRE=D:\JRE 
+jdk-8u20-windows-x64.exe /s INSTALLDIR=D:\JDK /INSTALLDIRPUBJRE=D:\JRE
 ```
 
 Для Windows x64:
 ----------------
-* Java 64 устанавливается в: **C:\Program Files\Java** 
+* Java 64 устанавливается в: **C:\Program Files\Java**
 * Java x86 устанавливается в: **C:\Program Files (x86)\Java**
 
 Платформа Java. JVM, сборка мусора, оптимизация, прогрев. JDK, JRE, ME, SE, EE
 ------------------------------------------------------------------------------
-https://lisiynos.googlecode.com/git/java/java_1.html 
+https://lisiynos.googlecode.com/git/java/java_1.html
 
 Установка и настройка IntelliJ IDEA
 -----------------------------------
 * https://www.jetbrains.com/idea/download/ - Idea Ultimate Edition + серийный номер
 * Указать JDK в настройках проекта (обычно каталог: C:\Program Files\Java\jdk1.8.0_20).
 
-Установка и настройка Apache Maven 
+Установка и настройка Apache Maven
 ----------------------------------
 * http://maven.apache.org/ - скачивание maven
 * Распаковать в папку на диске, например в C:\apache-maven-3.2.3\
 * Устанавливаем переменную окружения: M2_HOME=C:\apache-maven-3.2.3
 
-Установка и настройка Git
--------------------------
-
+Установка и настройка Git + GitHub
+----------------------------------
+* http://habrahabr.ru/post/125799/ - Как начать работать с GitHub: быстрый старт
+* http://habrahabr.ru/post/147192/ - Изучить Github за 15 минут: https://try.github.io
 
 JUnit
 -----
@@ -91,9 +92,94 @@ JUnit
 Установка и настройка Apache Tomcat
 -----------------------------------
 * http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.zip - скачивание Apache Tomcat
-* Распаковать в папку на диске, например в 
+* Распаковать в папку на диске, например в
 
-Домашнее задание 
+Первая программа на Java
+========================
+
+Java->class->JVM. Первое приложение Hello World. Package.
+
+Примитивные типы данных
+-----------------------
+1. **byte** - целое, один байт со знаком -128..127
+2. **short** - целое, два байта со знаком -32.768..32.767
+3. **int** - целое, 4 байта со знаком -2^31..2^31-1
+4. **long** - целое, 8 байт со знаком -2^63..2^63-1
+5. **float** - действительное число (32-bit IEEE 754 floating point)
+6. **double** - действительное число двойной точности (8 байт)
+7. **boolean** - логический тип (true и false)
+8. **char** - символ (2 байта) '\u0000'..'\uffff'
+
++ класс String
+
+Циклы
+-----
+``` java
+    // Цикл с предусловием
+        int N = 6;
+        System.out.print("N = " + N + " = (inverse binary) = ");
+        while (N > 0) {
+            System.out.print("" + N % 2);
+            N /= 2;
+        }
+        System.out.println();
+```
+
+``` java
+// Цикл с постусловием
+        int x = 1000;
+        do {
+            x -= 99;
+            System.out.println("x = " + x);
+        } while (x > 10);
+```
+
+``` .java
+public class HelloWorld {
+    public static void main(String[] args) {
+        /*
+             Многострочный комментарий
+              */
+        // Однострочный комментарий
+        System.out.println("Hello, world!");
+    }
+}
+```
+Графические библиотеки:
+AWT -
+Swing -
+Инкапсуляция. Полиморфизм. Интерфейсы. Абстрактные классы
+---------------------------------------------------------
+
+**ООП** - Объектно-ориентированное программирование
+
+**Инкапсуляция** (латинский: en capsula) - упаковка данных и функций в единый компонент.
+В объектно-ориентированных языках инкапсуляция, как правило, реализуется посредством механизма классов.
+
+**Наследование** - свойство системы, позволяющее описать новый класс на основе уже существующего
+с частично или полностью заимствующейся функциональностью (данными и методами).
+Класс, от которого производится наследование, называется **базовым**, **родительским** или **суперклассом**.
+Новый класс - **потомком**, **наследником** или **производным** классом.
+
+**Полиморфизм** - свойство системы использовать объекты с одинаковым интерфейсом без информации о
+типе и внутренней структуре объекта.
+
+ . Объектная модель. Класс. Экземпляр класса. Состояние, поведение, индивидуальность (Гради Буч).
+Домашнее задание: решение квадратного уравнения
+
+Написать используя технику TDD класс, который решает квадратное уравнение.
+Учесть вырожденные случаи:
+a = 0
+a = 0 и b = 0
+a = 0, b = 0, c = 0
+a = 0, b = 0, c != 0
+Exception
+RuntimeException
+Консольная игра "угадай животное"
+---------------------------------
+
+System.out.println("Загадайте животное, я буду угадывать животное, задавать вам вопросы");
+Домашнее задание
 ----------------
 Придумать объектную модель резюме.
 

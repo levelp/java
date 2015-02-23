@@ -80,9 +80,10 @@ https://lisiynos.googlecode.com/git/java/java_1.html
 * Распаковать в папку на диске, например в C:\apache-maven-3.2.3\
 * Устанавливаем переменную окружения: M2_HOME=C:\apache-maven-3.2.3
 
-Установка и настройка Git
--------------------------
-
+Установка и настройка Git + GitHub
+----------------------------------
+* http://habrahabr.ru/post/125799/ - Как начать работать с GitHub: быстрый старт
+* http://habrahabr.ru/post/147192/ - Изучить Github за 15 минут: https://try.github.io
 
 JUnit
 -----
@@ -92,8 +93,4 @@ JUnit
 -----------------------------------
 * http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.9/bin/apache-tomcat-8.0.9.zip - скачивание Apache Tomcat
 * Распаковать в папку на диске, например в 
-
-Домашнее задание 
-----------------
-Придумать объектную модель резюме.
 
