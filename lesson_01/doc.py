@@ -39,8 +39,9 @@ def parse(file_name):
             if code:
                 print(line.rstrip())
                 continue
-            if line.startswith(PREFIX):
-                print(line[len(PREFIX):].strip())
+            s = line.strip()
+            if s.startswith(PREFIX):
+                print(s[len(PREFIX):].strip())
 
 
 from os import listdir
