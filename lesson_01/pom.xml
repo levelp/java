@@ -25,7 +25,7 @@
         <module>11_Timer</module>
         <module>12_IntegrationTesting</module>
         <module>98_XORTest</module>
-        <module>99_ResumeModel</module>
+        <module>HW_ResumeModel</module>
     </modules>
 
     <build>

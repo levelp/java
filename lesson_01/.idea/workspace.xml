@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eae48b4-222a-428a-96ed-f2cf14119d56" name="Default" comment="Форматирование строки">
+      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\README.md" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\01_intro.md" afterPath="$PROJECT_DIR$/000_intro.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" afterPath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_OOP/03_OOP.iml" afterPath="$PROJECT_DIR$/03_OOP/03_OOP.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" afterPath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" afterPath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" afterPath="$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" afterPath="$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" afterPath="$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" afterPath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" afterPath="$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" afterPath="$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_HelloWorld/src/main/java/p00_helloworld/HelloWorld.java" afterPath="$PROJECT_DIR$/00_HelloWorld/src/main/java/p00_helloworld/HelloWorld.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" afterPath="$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson_01.iml" afterPath="$PROJECT_DIR$/lesson_01.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" afterPath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" afterPath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" afterPath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" afterPath="$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_OOP/README.md" afterPath="$PROJECT_DIR$/03_OOP/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc.py" afterPath="$PROJECT_DIR$/doc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson_01.iml" afterPath="$PROJECT_DIR$/lesson_01.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesson_01.iws" />
@@ -57,24 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="doc.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="doc.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="1360">
+            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1360">
               <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03107861" vertical-offset="3247" max-vertical-offset="580142">
-              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,6 +128,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,7 +149,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -500,17 +487,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21614583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21614583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -910,17 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="1360">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03107861" vertical-offset="3247" max-vertical-offset="580142">
-          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
       </provider>

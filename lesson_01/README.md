@@ -134,6 +134,7 @@ Java->class->JVM. Первое приложение Hello World. Package.
         } while (x > 10);
 ```
 
+Первая программа на Java
 ``` .java
 public class HelloWorld {
     public static void main(String[] args) {

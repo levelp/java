@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>java_01</groupId>
-    <artifactId>99_ResumeModel</artifactId>
+    <artifactId>HW_ResumeModel</artifactId>
     <version>1.0</version>
 
     <dependencies>
