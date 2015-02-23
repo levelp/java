@@ -7,7 +7,8 @@ package p01_datatypes;
  */
 public class A_PrimitiveTypes {
     public static void main(String args[]) {
-        // Pascal/Delphi: Writeln('Hello, groups 1893, 1894!');
+        // 
+        // Pascal/Delphi: Writeln('Hello, world!');
         // C: printf("Hello, groups 1893, 1894!\n");
         // C++: cout << "Hello, groups 1893, 1894!" << endl;
         /*

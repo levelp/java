@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="00_HelloWorld" />
+        <module name="01_HelloWorld" />
         <module name="03_OOP" />
         <module name="04_JUnit" />
         <module name="05_SquareEq" />
@@ -32,12 +33,14 @@
         <module name="10_ReadTextDemo" />
         <module name="12_IntegrationTesting" />
         <module name="99_ResumeModel" />
+        <module name="HW_ResumeModel" />
         <module name="SwingApplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="12_IntegrationTesting" target="1.7" />
       <module name="99_ResumeModel" target="1.5" />
+      <module name="HW_ResumeModel" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,7 +11,7 @@
     <name>Java Junior Developer 1</name>
 
     <modules>
-        <module>00_HelloWorld</module>
+        <module>01_HelloWorld</module>
         <module>01_DataTypes</module>
         <module>02_Cycle</module>
         <module>03_OOP</module>
