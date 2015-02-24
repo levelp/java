@@ -112,6 +112,7 @@ Java->class->JVM. Первое приложение Hello World. Package.
 
 + класс String
 Первая программа на Java
+------------------------
 ``` java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -123,6 +124,15 @@ public class HelloWorld {
     }
 }
 ```
+Если вы изучали Pascal/Delphi:
+``` pas
+Writeln('Hello, world!');
+```
+C/С++:
+``` cpp
+printf("Hello, world!\n"); // С
+cout << "Hello, world!" << endl; // C++
+```
 Шаблон: psvm + <tab>
 sout
 soutv - + вывести значение последней переменной
@@ -130,14 +140,6 @@ soutm + <tab> - название метода
 fori + <tab> - цикл по целочисленной переменной
 Примитивные типы данных
 -----------------------
-``` pas
-Pascal/Delphi: Writeln('Hello, world!');
-```
-Язык программирования C
-``` cpp
-C: printf("Hello, groups 1893, 1894!\n");
-C++: cout << "Hello, groups 1893, 1894!" << endl;
-```
 Целочисленные типы:
 --------------------
 1. byte

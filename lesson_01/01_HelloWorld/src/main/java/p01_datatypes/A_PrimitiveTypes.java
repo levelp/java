@@ -4,14 +4,6 @@ package p01_datatypes;
 // -----------------------
 public class A_PrimitiveTypes {
     public static void main(String args[]) {
-        // ``` pas
-        // Pascal/Delphi: Writeln('Hello, world!');
-        // ```
-        // Язык программирования C
-        // ``` cpp
-        // C: printf("Hello, groups 1893, 1894!\n");
-        // C++: cout << "Hello, groups 1893, 1894!" << endl;
-        // ```
         /*
           Многострочный...
             ...комментарий
