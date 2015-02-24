@@ -32,9 +32,9 @@
 
 **Книги по Java**
 * Программирование на Java и C# для студента, О. Герман, Ю. Герман: http://www.bookvoed.ru/book?id=3819902
-* Head First Java (Java, A Beginner's Guide).
+* Head First Java (Java, A Beginner's Guide) - http://rutracker.org/forum/viewtopic.php?t=4212262
 * Java. The Complete Reference. 8th Edition / Java. Полное руководство. 8-е издание - http://rutracker.org/forum/viewtopic.php?t=4164907 -
-* Test Driven Development (Kent Beck)
+* Test Driven Development (Kent Beck) - http://www.ozon.ru/context/detail/id/1501671/
 * Thinking in Java (Философия Java) Брюс Эккель: http://www.bookvoed.ru/book?id=422984
 * Искусство программирования на Java, Герберт Шилдт, Джеймс Холмс: http://www.bookvoed.ru/book?id=3483133
 * Java EE 7. Основы, Гупта А.: http://www.bookvoed.ru/book?id=6093759
@@ -42,9 +42,9 @@
 * Программист Прагматик (The Pragmatic Programmer) - подробно раскрыты общие методики программирования (книга похожа на сборник полезных советов)
 * Java concurrency in practice. - Многопоточность в Java.
 http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601
-* http://www.booksgid.com/programmer/4686-jekstremalnoe-programmirovanie.html
-* http://forcoder.ru/java/java-effektivnoe-programmirovanie-739 - начинающим
-
+* Книга: Экстремальное программирование: разработка через тестирование
+http://www.booksgid.com/programmer/4686-jekstremalnoe-programmirovanie.html
+* Джошуа Блох "Java. Эффективное программирование" http://www.ozon.ru/context/detail/id/21724143/
 
 
 Установка и настройка Java
@@ -72,6 +72,45 @@ jdk-8u20-windows-x64.exe /s INSTALLDIR=D:\JDK /INSTALLDIRPUBJRE=D:\JRE
 
 Платформа Java. JVM, сборка мусора, оптимизация, прогрев. JDK, JRE, ME, SE, EE
 ------------------------------------------------------------------------------
+**JVM** - Java Virtual Machine.
+
+* **MyClass.java** - файл с исходным кодом.
+* **javac MyClass.java** - Java Compiler - компилятор.
+* Байт-код: **MyClass.class**.
+* **java MyClass** - выполняем программу.
+* Запуск **JVM**
+* Внутри **JVM** запускается наша программа.
+
+* **JDK** - Java Development Kit (для компиляции)
+* **JRE** - Java Runtime Environment (для выполнения Java-программ)
+
+Принцип: Write once, run anywhere (WORA)
+
+* **Сборка мусора** - new - создание нового объекта
+**Сборщик мусора** (GC) удаляет все объекты
+на которые не ссылается программа при следующем цикле
+сборки мусора.
+
+**Память:**
+* Стек
+* Куча (динамическая память, heap)
+* Статическая память
+
+**Оптимизация, прогрев**
+
+* Перейти в папку JDK (например: D:\JDK\bin).
+* Создать файл **HW.java**
+``` java
+public class HW {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+* Откомпилировать **javac HW.java**
+* Убедиться, что появился файл: **java.class**
+* Запустить: **java HW**
+
 https://lisiynos.googlecode.com/git/java/java_1.html
 
 Установка и настройка IntelliJ IDEA
