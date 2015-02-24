@@ -71,6 +71,7 @@ for file_name in sorted(all_files):
     if get_extension(file_name).lower() == ".md":
         for line in open(file_name, 'r', encoding="utf-8"):
             print(line.rstrip())
+        print()
         continue
     # print(file_name)
     parse(file_name)
