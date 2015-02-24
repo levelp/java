@@ -10,11 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" filepath="$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" filepath="$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" />
       <module fileurl="file://$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" filepath="$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_SwingApplication/09_SwingApplication.iml" filepath="$PROJECT_DIR$/09_SwingApplication/09_SwingApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" filepath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" filepath="$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" filepath="$PROJECT_DIR$/99_ResumeModel/99_ResumeModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW_ResumeModel/HW_ResumeModel.iml" filepath="$PROJECT_DIR$/HW_ResumeModel/HW_ResumeModel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" filepath="$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson_01.iml" filepath="$PROJECT_DIR$/lesson_01.iml" />
     </modules>
   </component>

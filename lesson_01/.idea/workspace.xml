@@ -2,74 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eae48b4-222a-428a-96ed-f2cf14119d56" name="Default" comment="Форматирование строки">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW_ResumeModel/HW_ResumeModel.iml" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\000_intro.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\00_HelloWorld.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\HelloWorldRussian.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\IdeaLiveTemplates.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\compile_run.cmd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\package1\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p00_helloworld\package1\subpackage\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\A_PrimitiveTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\B_if_else.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\C2_FloatAccuracy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\C_FloatAccuracy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\D_Arrays.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\E_ByValueByReference.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\F_IncDec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\G_MulTable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\H_Operators.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\I_Printf.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\X_RussianId.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p01_datatypes\Z_SquareEq.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\main\java\p02_cycles\Cycles.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\test\java\p01_datatypes\MyClassTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\test\java\p01_datatypes\NewLineTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\00_HelloWorld\src\test\java\p01_datatypes\StringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\03_OOP.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\MyInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\MyInterfaceImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\Test1.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\inheritance\SubClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\inheritance\SuperClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\A.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\AbstractClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\B.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\C.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\Demo.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\I.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\multi\I2.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\p00_helloworld\package1\ClassInPackage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\p00_helloworld\package1\MyClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\p00_helloworld\package1\MyClassSubclass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\p00_helloworld\package1\TestInSamePackage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\shapes\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\shapes\Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\shapes\Shape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\main\java\shapes\Square.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\src\test\java\PolymorphismTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\03_OOP\target\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" afterPath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" afterPath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" afterPath="$PROJECT_DIR$/06_DateDemo/06_DateDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" afterPath="$PROJECT_DIR$/07_ArcSin/07_ArcSin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" afterPath="$PROJECT_DIR$/08_ConsoleDemo/08_ConsoleDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" afterPath="$PROJECT_DIR$/10_ReadTextDemo/10_ReadTextDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" afterPath="$PROJECT_DIR$/12_IntegrationTesting/12_IntegrationTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" afterPath="$PROJECT_DIR$/09_SwingApplication/SwingApplication.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lesson_01.iml" afterPath="$PROJECT_DIR$/lesson_01.iml" />
+      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\09_SwingApplication\SwingApplication.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" afterPath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java" afterPath="$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesson_01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,11 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_HelloWorld/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A_PrimitiveTypes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30865923" vertical-offset="0" max-vertical-offset="2499">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -139,6 +97,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java" />
+      </list>
+    </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -231,8 +196,52 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="lesson_01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson_01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01_HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson_01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson_01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="01_HelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -241,62 +250,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="p01_datatypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01_HelloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lesson_01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01_HelloWorld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="p00_helloworld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -710,7 +663,7 @@
       <workItem from="1417192475731" duration="50000" />
       <workItem from="1417192526951" duration="1339000" />
       <workItem from="1423781395428" duration="4024000" />
-      <workItem from="1424735332182" duration="69000" />
+      <workItem from="1424735332182" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="Форматирование строки">
       <created>1417193283853</created>
@@ -746,11 +699,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5750000" />
+    <option name="totallyTimeSpent" value="6529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,7 +718,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -859,6 +812,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30865923" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -911,7 +880,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>00_HelloWorld</last-edited>
+          <last-edited>01_HelloWorld</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

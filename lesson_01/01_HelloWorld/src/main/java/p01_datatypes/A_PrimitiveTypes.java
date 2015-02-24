@@ -1,16 +1,17 @@
 package p01_datatypes;
 
-/**
- * Наша первая Java-программа
- * <p/>
- * Примитивные типы данных
- */
+// Примитивные типы данных
+// -----------------------
 public class A_PrimitiveTypes {
     public static void main(String args[]) {
-        // 
+        // ``` pas
         // Pascal/Delphi: Writeln('Hello, world!');
+        // ```
+        // Язык программирования C
+        // ``` cpp
         // C: printf("Hello, groups 1893, 1894!\n");
         // C++: cout << "Hello, groups 1893, 1894!" << endl;
+        // ```
         /*
           Многострочный...
             ...комментарий
@@ -18,6 +19,7 @@ public class A_PrimitiveTypes {
         System.out.println("Hello, group!");
 
         // Целочисленные типы:
+        //--------------------
         //  1. byte
         byte varWithoutValue;
         varWithoutValue = 3; // Значение присваиваем позже
