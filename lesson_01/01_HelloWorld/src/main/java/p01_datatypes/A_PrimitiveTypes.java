@@ -109,7 +109,7 @@ public class A_PrimitiveTypes {
 
         int a;
         a = 2;
-        //
+        // Условный оператор **if**
         if (a > 1) { // Когда условие истинно
             System.out.println("a большая :)");
         } else { // в противоположном случае
@@ -129,12 +129,14 @@ public class A_PrimitiveTypes {
         // Цикл for
         for (int j = 0; j < 10; j++)
             System.out.println("j = " + j);
+
         // Вывод аргументов командной строки
         for (String s : args) {
             System.out.println(s);
         }
 
         // == Сокращённая форма ==
+        // -----------------------
         // Сложение
         a = a + 10;
         a += 10;
@@ -150,14 +152,14 @@ public class A_PrimitiveTypes {
         // Инкремент
         a = a + 1;
         a++; // Постфиксная форма
+        a = 2;
+        int aa = a++; // aa = 2
+        // a = 3
+        int a1 = ++a; // a1 = 4, a = 4
         ++a; // Префиксная форма
         // Декремент
         a = a - 1;
         a--;
         --a;
-
-        String s = "String1";
-
-
     }
 }
