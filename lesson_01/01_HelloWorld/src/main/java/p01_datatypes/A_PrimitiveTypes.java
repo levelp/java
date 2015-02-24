@@ -16,6 +16,7 @@ public class A_PrimitiveTypes {
         // Подробнее: http://ru.wikipedia.org/wiki/Дополнительный_код_(представление_числа)
         byte varWithoutValue;
         varWithoutValue = 3; // Значение присваиваем позже
+        varWithoutValue = (byte) (varWithoutValue + 2);
 
         byte b = -128; // -128..127
         System.out.println("b = " + b);
@@ -34,7 +35,7 @@ public class A_PrimitiveTypes {
         // | 11111111  |   -1              | 255  |
         //
 
-        // 2. 16-битное целое **short**: -32768..32767
+        // 2. 16-битное целое **short**: -2^15..2^15-1  -32768..32767
         //-->
         short sh = 32767; // -32768..32767
         //<--
@@ -49,21 +50,39 @@ public class A_PrimitiveTypes {
         int i = 2147483647; // 2^31-1
         //<--
 
-        // 4. 64-битное целое long
-        long l = 12L; // 64-битное целое
+        // 4. 64-битное целое **long**
+        long l = 2147483648L; // 64-битное целое
 
         byte b1 = (byte) 0xff;
         System.out.println("b1 = " + b1);
         int bb = 0xff & b1; // & - побитовое И
         System.out.println("bb = " + bb);
+        //
+        // & - побитовое И
+        // 0011
+        // 0101
+        // 0001
+        //
         // | - побитовое ИЛИ
+        // 0011
+        // 0101
+        // 0111
+        //
         // ~ - побитовое НЕ
+        // 01
+        // 10
+        //
         // ^ - XOR - исключающее ИЛИ
+        // 0011
+        // 0101
+        // 0110
+        //
 
         // Вещественные типы (действительные)
-        // 5. float
+        // 5. **float** - 4 байта
         float floatValue = 1.0f;
-        // 6. double
+
+        // 6. **double** - 8 байт
         double doubleValue = 1123.22 * 1.0 / 2.3;
         System.out.println(Double.MIN_VALUE + ".." +
                 Double.MAX_VALUE);
@@ -71,13 +90,18 @@ public class A_PrimitiveTypes {
         // 7. Логический тип
         boolean bool = true;
         boolean bool2 = false;
-        boolean bool3 = bool && bool2; // && - И
-        // || - ИЛИ
-        boolean bool4 = !bool; // НЕ
+        boolean bool3 = (bool && bool2) && false;
+        //
+        // && - логическое И
+        // || - логическое ИЛИ
+        boolean bool4 = !bool; // ! - логическое НЕ
 
-        // 8. Символьный тип
+        // 8. Символьный тип **char**
         char c1 = 'П', c2 = 'Р', c3 = 'И';
-        // Переменные, методы, классы можно называть по-русски, имена в кодировке Unicode
+
+        //
+        // Переменные, методы, классы можно
+        // называть по-русски, имена в кодировке Unicode
         char мояСимвольнаяПеременная = 'Д';
         System.out.println(мояСимвольнаяПеременная);
 
@@ -85,6 +109,7 @@ public class A_PrimitiveTypes {
 
         int a;
         a = 2;
+        //
         if (a > 1) { // Когда условие истинно
             System.out.println("a большая :)");
         } else { // в противоположном случае
