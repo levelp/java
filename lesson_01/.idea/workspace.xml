@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eae48b4-222a-428a-96ed-f2cf14119d56" name="Default" comment="Форматирование строки">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc.py" afterPath="$PROJECT_DIR$/doc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_HelloWorld/src/main/java/p02_cycles/Cycles.java" afterPath="$PROJECT_DIR$/01_HelloWorld/src/main/java/p02_cycles/Cycles.java" />
     </list>
     <ignored path="lesson_01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +43,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="doc.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7150838" vertical-offset="746" max-vertical-offset="1479">
+            <state vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1479">
               <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cycles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01_HelloWorld/src/main/java/p02_cycles/Cycles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6410614" vertical-offset="0" max-vertical-offset="986">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/01_HelloWorld/src/main/java/p01_datatypes/A_PrimitiveTypes.java" />
         <option value="$PROJECT_DIR$/01_HelloWorld/src/main/java/p00_helloworld/HelloWorld.java" />
         <option value="$PROJECT_DIR$/doc.py" />
+        <option value="$PROJECT_DIR$/01_HelloWorld/src/main/java/p02_cycles/Cycles.java" />
       </list>
     </option>
   </component>
@@ -227,6 +238,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p02_cycles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,7 +715,7 @@
       <workItem from="1417192475731" duration="50000" />
       <workItem from="1417192526951" duration="1339000" />
       <workItem from="1423781395428" duration="4024000" />
-      <workItem from="1424735332182" duration="1323000" />
+      <workItem from="1424735332182" duration="1409000" />
     </task>
     <task id="LOCAL-00001" summary="Форматирование строки">
       <created>1417193283853</created>
@@ -736,7 +751,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7004000" />
+    <option name="totallyTimeSpent" value="7090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -867,8 +882,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7150838" vertical-offset="746" max-vertical-offset="1479">
+        <state vertical-scroll-proportion="0.0" vertical-offset="746" max-vertical-offset="1479">
           <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_HelloWorld/src/main/java/p02_cycles/Cycles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6410614" vertical-offset="0" max-vertical-offset="986">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding />
         </state>
       </provider>
