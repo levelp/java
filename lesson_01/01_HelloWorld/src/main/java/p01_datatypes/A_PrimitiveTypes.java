@@ -12,7 +12,7 @@ public class A_PrimitiveTypes {
 
         // Целочисленные типы:
         //--------------------
-        //  1. byte
+        //  1. 8 битное целое - **byte** -128..127
         byte varWithoutValue;
         varWithoutValue = 3; // Значение присваиваем позже
 
