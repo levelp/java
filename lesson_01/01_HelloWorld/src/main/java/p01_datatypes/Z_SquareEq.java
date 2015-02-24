@@ -24,12 +24,13 @@ public class Z_SquareEq {
         System.out.println("Дискриминант = " + D);
 
         // Теперь проверяем знак дискриминанта
-        if (D < 0.0) {
-            System.out.println("Решений нет!");
-        }
-        if (D == 0.0) {
+        if (Math.abs(D) < 1e-16) {
             double x = -b / (2 * a);
             System.out.println("x = " + x);
+            return;
+        }
+        if (D < 0.0) {
+            System.out.println("Решений нет!");
         }
         if (D > 0.0) {
             double x1 = (-b + sqrt(D)) / (2 * a);

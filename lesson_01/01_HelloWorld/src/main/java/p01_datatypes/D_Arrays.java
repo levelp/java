@@ -13,7 +13,8 @@ public class D_Arrays {
 
         // Пробегаем по всем элементам массива
         for (int i = 0; i < intArray2.length; i++) {
-            System.out.println("intArray2[" + i + "] = " + intArray1[i]);
+            System.out.println("intArray2[" + i + "] = " +
+                    intArray1[i]);
         }
         // Если нам не важны индексы, то мы можем использовать цикл "foreach"
         for (int i : intArray1) {
@@ -28,7 +29,7 @@ public class D_Arrays {
                 {7, 8, 9}
         };
         int x = array2D[0][0]; // Элемент массива с индексом 0 0
-
+        array2D[1][1] = 231; // Новое значение
 
 
     }
