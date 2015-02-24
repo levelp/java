@@ -112,9 +112,10 @@ public class HW {
 * Запустить: **java HW**
 * Посмотреть на результаты выполнения программы.
 
-
 https://lisiynos.googlecode.com/git/java/java_1.html
 
+Варианты поставки Java
+----------------------
 **Java ME (Java 2 Micro Edition, J2ME)** -
 подмножество платформы Java для устройств,
 ограниченных в ресурсах, например:

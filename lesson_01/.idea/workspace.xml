@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2eae48b4-222a-428a-96ed-f2cf14119d56" name="Default" comment="save">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_intro.md" afterPath="$PROJECT_DIR$/00_intro.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesson_01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,7 +113,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="7888">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="8381">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -127,8 +126,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8747698" vertical-offset="4455" max-vertical-offset="5950">
-              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6243094" vertical-offset="4591" max-vertical-offset="5984">
+              <caret line="145" column="22" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -662,7 +661,7 @@
       <workItem from="1424735332182" duration="3994000" />
       <workItem from="1424780485752" duration="183000" />
       <workItem from="1424782622899" duration="540000" />
-      <workItem from="1424796232830" duration="3649000" />
+      <workItem from="1424796232830" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="Форматирование строки">
       <created>1417193283853</created>
@@ -704,7 +703,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14047000" />
+    <option name="totallyTimeSpent" value="14138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -1118,8 +1117,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8747698" vertical-offset="4455" max-vertical-offset="5950">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6243094" vertical-offset="4591" max-vertical-offset="5984">
+          <caret line="145" column="22" selection-start-line="145" selection-start-column="22" selection-end-line="145" selection-end-column="22" />
           <folding />
         </state>
       </provider>
