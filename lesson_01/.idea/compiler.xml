@@ -24,12 +24,14 @@
         <processorPath useClasspath="true" />
         <module name="00_HelloWorld" />
         <module name="01_HelloWorld" />
+        <module name="02_OOP" />
         <module name="03_OOP" />
         <module name="04_JUnit" />
         <module name="05_SquareEq" />
         <module name="06_DateDemo" />
         <module name="07_ArcSin" />
         <module name="08_ConsoleDemo" />
+        <module name="09_SwingApplication" />
         <module name="10_ReadTextDemo" />
         <module name="12_IntegrationTesting" />
         <module name="99_ResumeModel" />

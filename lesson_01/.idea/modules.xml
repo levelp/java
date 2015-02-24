@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" filepath="$PROJECT_DIR$/00_HelloWorld/00_HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_OOP/02_OOP.iml" filepath="$PROJECT_DIR$/02_OOP/02_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_OOP/03_OOP.iml" filepath="$PROJECT_DIR$/03_OOP/03_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_JUnit/04_JUnit.iml" filepath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" filepath="$PROJECT_DIR$/05_SquareEq/05_SquareEq.iml" />

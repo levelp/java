@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -12,9 +12,7 @@
 
     <modules>
         <module>01_HelloWorld</module>
-        <module>01_DataTypes</module>
-        <module>02_Cycle</module>
-        <module>03_OOP</module>
+        <module>02_OOP</module>
         <module>04_JUnit</module>
         <module>05_SquareEq</module>
         <module>06_DateDemo</module>
@@ -22,9 +20,7 @@
         <module>08_ConsoleDemo</module>
         <module>09_SwingApplication</module>
         <module>10_ReadTextDemo</module>
-        <module>11_Timer</module>
         <module>12_IntegrationTesting</module>
-        <module>98_XORTest</module>
         <module>HW_ResumeModel</module>
     </modules>
 
@@ -42,13 +38,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 </project>
