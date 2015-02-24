@@ -1,9 +1,10 @@
 package p00_helloworld;
 
-/**
- * Шаблоны для быстрого ввода кода
- */
+
+// Шаблоны для быстрого ввода кода
+// -------------------------------
 public class IdeaLiveTemplates {
+    //-->
     // Шаблон: psvm + <tab>
     public static void main(String[] args) {
         // sout
@@ -19,4 +20,5 @@ public class IdeaLiveTemplates {
             System.out.println("j = " + j);
         }
     }
+    //<--
 }

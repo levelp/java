@@ -113,7 +113,7 @@ Java->class->JVM. Первое приложение Hello World. Package.
 
 + класс String
 
-Первая программа на Java
+Первая программа на Java (Hello World)
 ------------------------
 ``` java
 public class HelloWorld {
@@ -135,11 +135,25 @@ C/С++:
 printf("Hello, world!\n"); // С
 cout << "Hello, world!" << endl; // C++
 ```
-Шаблон: psvm + <tab>
-sout
-soutv - + вывести значение последней переменной
-soutm + <tab> - название метода
-fori + <tab> - цикл по целочисленной переменной
+Шаблоны для быстрого ввода кода
+-------------------------------
+``` java
+    // Шаблон: psvm + <tab>
+    public static void main(String[] args) {
+        // sout
+        System.out.println();
+        // soutv - + вывести значение последней переменной
+        int i = 10;
+        System.out.println("i = " + i);
+        // soutm + <tab> - название метода
+        System.out.println("IdeaLiveTemplates.main");
+
+        // fori + <tab> - цикл по целочисленной переменной
+        for (int j = 0; j < 10; j++) {
+            System.out.println("j = " + j);
+        }
+    }
+```
 Примитивные типы данных
 -----------------------
 Целочисленные типы:

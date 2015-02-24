@@ -1,6 +1,6 @@
 package p00_helloworld;
 
-// Первая программа на Java
+// Первая программа на Java (Hello World)
 // ------------------------
 //-->
 public class HelloWorld {
