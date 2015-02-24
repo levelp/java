@@ -39,15 +39,15 @@ public class A_PrimitiveTypes {
         short sh = 32767; // -32768..32767
         //<--
 
-        // 3. 32-битное целое
+        // 3. 32-битное целое **int**
+        //-->
         int integerBinary = 0b10101010; // Начиная с Java7
         // Java6
         int intBin = Integer.parseInt("1011", 2);
-
         int integerHex = 0xFFA9; // Шестнадцатеричная система счисления
         // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
-
-        int i = 10; // 32-битное целое
+        int i = 2147483647; // 2^31-1
+        // <--
 
         // 4. 64-битное целое long
         long l = 12L; // 64-битное целое
