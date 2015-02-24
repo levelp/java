@@ -111,29 +111,6 @@ Java->class->JVM. Первое приложение Hello World. Package.
 8. **char** - символ (2 байта) '\u0000'..'\uffff'
 
 + класс String
-
-Циклы
------
-``` java
-    // Цикл с предусловием
-        int N = 6;
-        System.out.print("N = " + N + " = (inverse binary) = ");
-        while (N > 0) {
-            System.out.print("" + N % 2);
-            N /= 2;
-        }
-        System.out.println();
-```
-
-``` java
-// Цикл с постусловием
-        int x = 1000;
-        do {
-            x -= 99;
-            System.out.println("x = " + x);
-        } while (x > 10);
-```
-
 Первая программа на Java
 ``` java
 public class HelloWorld {
@@ -248,7 +225,9 @@ double D = b * b - 4 * a * c;
 Графические библиотеки:
 AWT -
 Swing -
-Цикл с предусловием
+Циклы: while, do while, for
+---------------------------
+Цикл с предусловием **while(условие) тело_цикла;**
 ``` java
         int N = 6;
         System.out.print("N = " + N + " = (inverse binary) = ");
@@ -258,7 +237,7 @@ Swing -
         }
         System.out.println();
 ```
-Цикл с постусловием
+Цикл с постусловием **do { тело_цикла } while (условие);
 ``` java
         int x = 1000;
         do {

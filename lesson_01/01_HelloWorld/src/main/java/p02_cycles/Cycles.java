@@ -1,12 +1,11 @@
 package p02_cycles;
 
-/**
- * Циклы: while, do while, for
- */
+// Циклы: while, do while, for
+// ---------------------------
 public class Cycles {
 
     public static void main(String[] args) {
-        // Цикл с предусловием
+        // Цикл с предусловием **while(условие) тело_цикла;**
         //-->
         int N = 6;
         System.out.print("N = " + N + " = (inverse binary) = ");
@@ -17,7 +16,7 @@ public class Cycles {
         System.out.println();
         //<--
 
-        // Цикл с постусловием
+        // Цикл с постусловием **do { тело_цикла } while (условие);
         //-->
         int x = 1000;
         do {
