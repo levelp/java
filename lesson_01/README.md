@@ -6,6 +6,11 @@
 
 Степулёнок Денис Олегович - Stden@mail.ru
 
+Для скачивания
+--------------
+* Скачать Java SE: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* https://www.jetbrains.com/idea/download/ - Idea Ultimate Edition + серийный номер
+
 Почему Java?
 ------------
 * http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html - TIOBE Index
