@@ -4,6 +4,9 @@ package util;
  * Число в строку
  */
 public class NumberToString {
+    /**
+     * Числа от 1 до 19
+     */
     static String[] digits = {
             "", "один", "два", "три",
             "четыре", "пять", "шесть", "семь",
@@ -13,27 +16,97 @@ public class NumberToString {
             "пятнадцать", "шестнадцать", "семьнадцать",
             "восемьнадцать", "девятьнадцать",
     };
-    String dec[] = {
+    /**
+     * Десятки
+     */
+    static String[] decs = {
             "", "", "двадцать", "тридцать",
             "сорок", "пятьдесят", "шестьдесят",
             "семьдесят", "восемьдесят",
             "девяносто"
     };
-    String hundreds[] = {
+    static String hundreds[] = {
             "", "сто", "двести", "триста", "четыреста", "пятьсот",
             "шестьсот", "семьсот", "восемьсот", "девятьсот",
     };
 
+    // Статический конструктор
+    //-->
+    static int calls;
+
+    static {
+        // ... действия по инициализации класса
+        //  в общем...
+        calls = 0; // Инициализация статической
+        // переменной
+    }
+    //<--
+
     /**
      * Число в строку
      */
+    //-->
     public static String intToStr(int N) {
         String res = "";
         if (N == 0)
             res = "ноль";
+        if (N >= 1000) {
+            // Количество тысяч
+            int t = N / 1000;
+
+            if (t >= 100) {
+                // Количество сотен
+                int h = t / 100;
+                res += " " + hundreds[h];
+                t -= h * 100;
+                N -= h * 100000;
+            }
+
+            int dec_t = t / 10;
+            if (dec_t > 1) {
+                res += " " + decs[dec_t];
+                t -= dec_t * 10;
+                N -= dec_t * 10000;
+            }
+
+            switch (t) {
+                case 0:
+                    res += " тысяч";
+                    break;
+                case 1:
+                    res += " одна тысяча";
+                    break;
+                case 2:
+                    res += " две тысячи";
+                    break;
+                default:
+                    if (t == 3 || t == 4) {
+                        res += " " + digits[t] + " тысячи";
+                    } else {
+                        res += " " + digits[t] + " тысяч";
+                    }
+            }
+            N -= t * 1000;
+        }
+        if (N >= 100) {
+            // Количество сотен
+            int h = N / 100;
+            res += " " + hundreds[h];
+            N -= h * 100;
+        }
+        if (N >= 20) { // Есть десятки
+            // Количество десятков
+            int dec = N / 10;
+            res += " " + decs[dec];
+            N -= dec * 10;
+        }
         if (N > 0)
-            res = digits[N];
+            res += " " + digits[N];
+        // Убираем начальные и конечные пробелы
+        res = res.trim();
+        // Делаем первую букву большой
         res = res.substring(0, 1).toUpperCase() + res.substring(1);
         return res;
     }
+    //<--
 }

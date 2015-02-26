@@ -6,6 +6,11 @@ import static util.NumberToString.intToStr;
 /**
  * Тестирование перевода числа в строку
  */
+// Регулярные выражения в Idea IDE:
+// assertEquals\(intToStr\((\d+)\), \(?("[^"]+")\)?\
+// assertEquals($2, intToStr($1))
+// * $1 - первый параметр
+// * $2 - второй параметр и т.д.
 public class NumberToStringTest extends Assert {
 
     @Test
@@ -37,55 +42,55 @@ public class NumberToStringTest extends Assert {
         assertEquals("Сорок", intToStr(40));
         assertEquals("Сорок один", intToStr(41));
         assertEquals("Пятьдесят два", intToStr(52));
-        assertEquals(intToStr(63), ("Шестьдесят три"));
-        assertEquals(intToStr(74), ("Семьдесят четыре"));
-        assertEquals(intToStr(80), ("Восемьдесят"));
-        assertEquals(intToStr(90), ("Девяносто"));
-        assertEquals(intToStr(91), ("Девяносто один"));
-        assertEquals(intToStr(92), ("Девяносто два"));
-
+        assertEquals("Шестьдесят три", intToStr(63));
+        assertEquals("Семьдесят четыре", intToStr(74));
+        assertEquals("Восемьдесят", intToStr(80));
+        assertEquals("Девяносто", intToStr(90));
+        assertEquals("Девяносто один", intToStr(91));
+        assertEquals("Девяносто два", intToStr(92));
     }
 
     @Test
     public void testintToStr_100_to_199() {
-        assertEquals(intToStr(100), "Сто");
-        assertEquals(intToStr(101), "Сто один");
-        assertEquals(intToStr(102), "Сто два");
-        assertEquals(intToStr(111), "Сто одиннадцать");
-        assertEquals(intToStr(120), "Сто двадцать");
-        assertEquals(intToStr(121), "Сто двадцать один");
-        assertEquals(intToStr(122), "Сто двадцать два");
-        assertEquals(intToStr(140), "Сто сорок");
-        assertEquals(intToStr(141), "Сто сорок один");
+        assertEquals("Сто", intToStr(100));
+        assertEquals("Сто один", intToStr(101));
+        assertEquals("Сто два", intToStr(102));
+        assertEquals("Сто одиннадцать", intToStr(111));
+        assertEquals("Сто двадцать", intToStr(120));
+        assertEquals("Сто двадцать один", intToStr(121));
+        assertEquals("Сто двадцать два", intToStr(122));
+        assertEquals("Сто сорок", intToStr(140));
+        assertEquals("Сто сорок один", intToStr(141));
     }
 
     @Test
     public void testintToStr_200_to_999() {
-        assertEquals(intToStr(200), "Двести");
-        assertEquals(intToStr(201), "Двести один");
-        assertEquals(intToStr(202), "Двести два");
-        assertEquals(intToStr(211), "Двести одиннадцать");
-        assertEquals(intToStr(220), "Двести двадцать");
-        assertEquals(intToStr(221), "Двести двадцать один");
-        assertEquals(intToStr(222), "Двести двадцать два");
-        assertEquals(intToStr(240), "Двести сорок");
-        assertEquals(intToStr(241), "Двести сорок один");
-        assertEquals(intToStr(245), "Двести сорок пять");
-        assertEquals(intToStr(999), "Девятьсот девяносто девять");
+        assertEquals("Двести", intToStr(200));
+        assertEquals("Двести один", intToStr(201));
+        assertEquals("Двести два", intToStr(202));
+        assertEquals("Двести одиннадцать", intToStr(211));
+        assertEquals("Двести двадцать", intToStr(220));
+        assertEquals("Двести двадцать один", intToStr(221));
+        assertEquals("Двести двадцать два", intToStr(222));
+        assertEquals("Двести сорок", intToStr(240));
+        assertEquals("Двести сорок один", intToStr(241));
+        assertEquals("Двести сорок пять", intToStr(245));
+        assertEquals("Девятьсот девяносто девять", intToStr(999));
     }
 
     @Test
     public void testIntToStr_1000_to_999999() {
-        assertEquals(intToStr(1000), "Одна тысяча");
-        assertEquals(intToStr(2000), "Две тысячи");
-        assertEquals(intToStr(3000), "Три тысячи");
-        assertEquals(intToStr(4000), "Четыре тысячи");
-        assertEquals(intToStr(5000), "Пять тысяч");
-        assertEquals(intToStr(10000), "Десять тысяч");
-        assertEquals(intToStr(20000), "Двадцать тысяч");
-        assertEquals(intToStr(99912), "Девяносто девять тысяч девятьсот двенадцать");
-        assertEquals(intToStr(920912), "Девятьсот двадцать тысяч девятьсот двенадцать");
-        assertEquals(intToStr(911912), "Девятьсот одиннадцать тысяч девятьсот двенадцать");
+        assertEquals("Одна тысяча", intToStr(1000));
+        assertEquals("Две тысячи", intToStr(2000));
+        assertEquals("Три тысячи", intToStr(3000));
+        assertEquals("Четыре тысячи", intToStr(4000));
+        assertEquals("Пять тысяч", intToStr(5000));
+        assertEquals("Десять тысяч", intToStr(10000));
+        assertEquals("Двадцать тысяч", intToStr(20000));
+        assertEquals("Девяносто девять тысяч девятьсот девяносто девять", intToStr(99999));
+        assertEquals("Девяносто девять тысяч девятьсот двенадцать", intToStr(99912));
+        assertEquals("Девятьсот двадцать тысяч девятьсот двенадцать", intToStr(920912));
+        assertEquals("Девятьсот одиннадцать тысяч девятьсот двенадцать", intToStr(911912));
     }
 
 }
