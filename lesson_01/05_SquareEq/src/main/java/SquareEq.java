@@ -1,10 +1,11 @@
 import static java.lang.Math.*;
 
-/**
- * Решение квадратного уравнения
- */
+//
+// Решение квадратного уравнения
+// -----------------------------
 public class SquareEq {
 
+    //-->
     // Точность вычислений
     public static final double DELTA = 0.000000001;
 
@@ -45,4 +46,5 @@ public class SquareEq {
         // Нет решений
         return new double[]{};
     }
+    //<--
 }

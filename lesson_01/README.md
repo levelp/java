@@ -512,17 +512,64 @@ assertEquals(message, expected, actual)
 * a = 0, b = 0, c = 0
 * a = 0, b = 0, c != 0
 
-Исключения в Java двух видов:
+
+Исключения в Java
+----------------
+Бывают двух видов:
 * Наследники от класса **Exception**
-надо указывать .
+надо указывать throws в цепочке вызовов.
 * Наследники от класса **RuntimeException**
 не надо указывать throws.
-Точность вычислений
-Обработка вырожденных случаев
-Вычислим дискриминант
-Если D = 0 => одно решение
-Если D > 0 => 2 решения
-Нет решений
+``` java
+// Любое значение X
+public class AnyXException extends RuntimeException {
+}
+```
+
+Решение квадратного уравнения
+-----------------------------
+``` java
+    // Точность вычислений
+    public static final double DELTA = 0.000000001;
+
+    /**
+     * Решение квадратного уравнения: ax^2 + bx + c = 0
+     *
+     * @param a коэффициент уравнения a
+     * @param b коэффициент уравнения b
+     * @param c коэффициент уравнения c
+     * @return массив решений уравнения
+     */
+    public static double[] solve(double a, double b, double c) throws AnyXException {
+        // Обработка вырожденных случаев
+        if (abs(a) < DELTA) {
+            if (abs(b) < DELTA) {
+                if (abs(c) < DELTA)
+                    throw new AnyXException();
+                return new double[]{};
+            }
+            return new double[]{-c / b};
+        }
+
+        // Вычислим дискриминант
+        double D = pow(b, 2) - 4 * a * c;
+
+        // Если D = 0 => одно решение
+        if (abs(D) < DELTA) {
+            return new double[]{-b / (2 * a)};
+        }
+
+        // Если D > 0 => 2 решения
+        if (D > 0) {
+            return new double[]{
+                    (-b - sqrt(D) / (2 * a)),
+                    (-b + sqrt(D) / (2 * a))
+            };
+        }
+        // Нет решений
+        return new double[]{};
+    }
+```
 assertEquals( ожидаемое_значение, вычисленное значение )
 сообщение_если_значения_не_равны, ..., ...
 a*x^2 + b*x + c = 0

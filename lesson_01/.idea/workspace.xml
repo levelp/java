@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eae48b4-222a-428a-96ed-f2cf14119d56" name="Default" comment="save">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/n_public_private_protected/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/test/java/AirplaneTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/n_public_private_protected/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/test/java/InheritanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/encapsula/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/encapsula/SquareArea.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/encapsula/SquareSide.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/test/java/SquareTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/n_public_private_protected_user/UserClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/n_public_private_protected/UserClassInSamePackage.java" />
-      <change type="DELETED" beforePath="C:\Users\gtee\Desktop\java\lesson_01\04_JUnit\target\MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/02_OOP.iml" afterPath="$PROJECT_DIR$/02_OOP/02_OOP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" afterPath="$PROJECT_DIR$/04_JUnit/04_JUnit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Circle.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Circle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/multi/I.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/multi/I.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/test/java/PolymorphismTest.java" afterPath="$PROJECT_DIR$/02_OOP/src/test/java/PolymorphismTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Rectangle.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Rectangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Shape.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Shape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Square.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/shapes/Square.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/src/main/java/inheritance/SubClass.java" afterPath="$PROJECT_DIR$/02_OOP/src/main/java/inheritance/SubClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_OOP/pom.xml" afterPath="$PROJECT_DIR$/02_OOP/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_JUnit/pom.xml" afterPath="$PROJECT_DIR$/04_JUnit/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/pom.xml" afterPath="$PROJECT_DIR$/05_SquareEq/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java" afterPath="$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java" afterPath="$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java" />
     </list>
     <ignored path="lesson_01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,12 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnyXException.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AnyXException.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.6107383" vertical-offset="0" max-vertical-offset="447">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#317#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,7 +80,7 @@
       <file leaf-file-name="SquareEqTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05_SquareEq/src/test/java/SquareEqTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -151,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SquareEq.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SquareEq.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2880185" vertical-offset="679" max-vertical-offset="1296">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1344">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -219,6 +197,7 @@
         <option value="$PROJECT_DIR$/04_JUnit/pom.xml" />
         <option value="$PROJECT_DIR$/04_JUnit/src/test/java/MyClassTest.java" />
         <option value="$PROJECT_DIR$/05_SquareEq/pom.xml" />
+        <option value="$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java" />
         <option value="$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java" />
       </list>
     </option>
@@ -866,7 +845,7 @@
       <workItem from="1424871010186" duration="254000" />
       <workItem from="1424969114325" duration="605000" />
       <workItem from="1424969763267" duration="290000" />
-      <workItem from="1424970056971" duration="4308000" />
+      <workItem from="1424970056971" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="Форматирование строки">
       <created>1417193283853</created>
@@ -908,7 +887,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20799000" />
+    <option name="totallyTimeSpent" value="21015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -1431,14 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/test/java/SquareEqTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1782">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05_SquareEq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="408">
@@ -1447,19 +1418,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java">
+    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1344">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/SquareEq.java">
+    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/test/java/SquareEqTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2880185" vertical-offset="679" max-vertical-offset="1296">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1782">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_SquareEq/src/main/java/AnyXException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6107383" vertical-offset="0" max-vertical-offset="447">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
