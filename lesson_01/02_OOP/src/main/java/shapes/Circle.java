@@ -6,7 +6,7 @@ import static java.lang.Math.pow;
 /**
  * Круг
  */
-public class Circle implements Shape {
+public class Circle extends Shape {
     private double r;
 
     /**
@@ -20,7 +20,7 @@ public class Circle implements Shape {
 
     @Override
     public String show() {
-        return null;
+        return "Круг: радиус " + r;
     }
 
     @Override

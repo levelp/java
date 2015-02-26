@@ -3,7 +3,7 @@ package shapes;
 /**
  * Прямоугольник
  */
-public class Rectangle implements Shape {
+public class Rectangle extends Shape {
     /**
      * Стороны прямоугольника
      */
@@ -22,7 +22,8 @@ public class Rectangle implements Shape {
 
     @Override
     public String show() {
-        return "Прямоугольник: a = " + a + " b = " + b + " площадь " + area();
+        return "Прямоугольник: " +
+                "a = " + a + " b = " + b + " площадь " + area();
     }
 
     @Override

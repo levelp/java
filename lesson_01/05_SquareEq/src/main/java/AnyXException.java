@@ -1,8 +1,11 @@
+// Исключения в Java двух видов:
+// * Наследники от класса **Exception**
+//  надо указывать .
+// * Наследники от класса **RuntimeException**
+//  не надо указывать throws.
+
 /**
  * Любое значение X
  */
-// Исключения в Java двух видов:
-// * Exception
-// * RuntimeException
 public class AnyXException extends RuntimeException {
 }

@@ -5,7 +5,7 @@ import static java.lang.Math.pow;
 /**
  * Квадрат
  */
-public class Square implements Shape {
+public class Square extends Shape {
     private final double side;
 
     public Square(double side) {

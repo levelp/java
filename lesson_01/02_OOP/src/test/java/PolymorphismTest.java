@@ -13,7 +13,8 @@ public class PolymorphismTest extends Assert {
 
     @Test
     public void testShapes() {
-        Shape[] shapes = {new Square(2.0), new Rectangle(2.0, 3.5), new Circle(1.0)};
+        Shape[] shapes = {new Square(2.0),
+                new Rectangle(2.0, 3.5), new Circle(1.0)};
 
         assertEquals(4.0, shapes[0].area(), 1e-10);
         assertEquals(7.0, shapes[1].area(), 1e-10);
@@ -23,7 +24,7 @@ public class PolymorphismTest extends Assert {
         assertEquals("Прямоугольник: a = 2.0 b = 3.5 площадь 7.0", shapes[1].show());
 
         for (Shape shape : shapes) {
-            shape.show();
+            System.out.println(shape.show());
         }
     }
 

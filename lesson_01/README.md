@@ -469,8 +469,33 @@ int i = 2;
 Не может содержать полей
 int x;
 myClass.privateField - нет доступа
+super(); // Вызываем конструктор суперкласса
 public int a;
 AbstractClass
+Первый интерфейс
+``` java
+public interface I {
+    void m1();
+}
+```
+``` java
+    // Без модификатора
+    // Поле доступно в текущем пакете
+    int packageLocal = 1;
+
+    // Только внутри класса A
+    private int onlyInA = 2;
+
+    // Внутри класса A и всех наследников A
+    protected int withSubclasses = 3;
+
+    // Доступно всем
+    public int forAll = 4;
+```
+onlyInA = 10;
+Пользовательский класс внутри того же пакета
+a.withSubclasses = 10;
+System.out.println("a.withSubclasses = " + a.withSubclasses);
 ...
 privateField = 11;
 Поле в том же пакете
@@ -488,8 +513,10 @@ assertEquals(message, expected, actual)
 * a = 0, b = 0, c != 0
 
 Исключения в Java двух видов:
-* Exception
-* RuntimeException
+* Наследники от класса **Exception**
+надо указывать .
+* Наследники от класса **RuntimeException**
+не надо указывать throws.
 Точность вычислений
 Обработка вырожденных случаев
 Вычислим дискриминант
