@@ -7,6 +7,7 @@ public class E_ByValueByReference {
 
     public static void main(String[] args) {
         int i = 10;
+        System.out.println("i = " + i);
         myMethod(i);
         System.out.println("i = " + i);
 
@@ -21,7 +22,7 @@ public class E_ByValueByReference {
      */
     private static void myMethod(int i) {
         i += 20;
-        System.out.println("i = " + i);
+        System.out.println("myMethod: i = " + i);
     }
 
     /**

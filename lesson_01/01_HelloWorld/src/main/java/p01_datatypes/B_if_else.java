@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class B_if_else {
 
     public static void main(String[] args) {
+        //-->
         Scanner scanner = new Scanner(System.in);
 
         // Читаем целое число с клавиатуры
@@ -21,5 +22,6 @@ public class B_if_else {
         if (a >= 10) {
             System.out.println("a >= 10");
         }
+        //<--
     }
 }
