@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="00_enum" />
         <module name="00_HelloWorld" />
         <module name="01_Collections" />
         <module name="01_Memory" />
@@ -46,4 +47,3 @@
     </annotationProcessing>
   </component>
 </project>
-

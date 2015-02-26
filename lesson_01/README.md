@@ -463,6 +463,22 @@ Returns the char value at the specified index
 Замена символов
 Шаблоны
 Шаблон телефонного номера
+Сравнение строк
+``` java
+    @Test
+    public void testStrEq() {
+        String a = "test 1";
+        String b = a.substring(0, 4);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        String c = "test";
+        System.out.println("c = " + c);
+        System.out.println("(c == b) = " + (c == b));
+        System.out.println("c.equals(b) = " + c.equals(b));
+        assertFalse(c == b);
+        assertTrue(c.equals(b));
+    }
+```
 
 
 Инкапсуляция. Полиморфизм. Интерфейсы. Абстрактные классы
@@ -527,8 +543,152 @@ System.out.println("a.withSubclasses = " + a.withSubclasses);
 privateField = 11;
 Поле в том же пакете
 Не работает: myClass.privateField
-assertEquals(message, expected, actual)
-Сравнение массивов
+Статический конструктор
+``` java
+    static int calls;
+
+    static {
+        // ... действия по инициализации класса
+        //  в общем...
+        calls = 0; // Инициализация статической
+        // переменной
+    }
+```
+``` java
+    public static String intToStr(int N) {
+        String res = "";
+        if (N == 0)
+            res = "ноль";
+        if (N >= 1000) {
+            // Количество тысяч
+            int t = N / 1000;
+
+            if (t >= 100) {
+                // Количество сотен
+                int h = t / 100;
+                res += " " + hundreds[h];
+                t -= h * 100;
+                N -= h * 100000;
+            }
+
+            int dec_t = t / 10;
+            if (dec_t > 1) {
+                res += " " + decs[dec_t];
+                t -= dec_t * 10;
+                N -= dec_t * 10000;
+            }
+
+            switch (t) {
+                case 0:
+                    res += " " +
+                            thousands[numForm(t)];
+                    break;
+                case 1:
+                    res += " одна " +
+                            thousands[numForm(t)];
+                    break;
+                case 2:
+                    res += " две " +
+                            thousands[numForm(t)];
+                    break;
+                default:
+                    res += " " + digits[t] + " " +
+                            thousands[numForm(t)];
+            }
+            N -= t * 1000;
+        }
+        if (N >= 100) {
+            // Количество сотен
+            int h = N / 100;
+            res += " " + hundreds[h];
+            N -= h * 100;
+        }
+        if (N >= 20) { // Есть десятки
+            // Количество десятков
+            int dec = N / 10;
+            res += " " + decs[dec];
+            N -= dec * 10;
+        }
+        if (N > 0)
+            res += " " + digits[N];
+        // Убираем начальные и конечные пробелы
+        res = res.trim();
+        // Делаем первую букву большой
+        res = res.substring(0, 1).toUpperCase() + res.substring(1);
+        return res;
+    }
+
+    // Форма числительного в зависимости от числа
+    private static int numForm(int N) {
+        if (N == 1)
+            return 1;
+        if (N >= 2 && N <= 4)
+            return 2;
+        return 0;
+    }
+```
+Тесты в JUnit
+-------------
+Протестировать написанный код.
+
+Регрессионное тестирование:
+* Один раз проверили что код работает верно
+* Написали тест, который проверяет что код возвращает одни и
+те же результаты
+* На каждой новой версии продукта запускаем
+эти же тесты.
+
+**TDD - Test Driven Development ** -
+разработка через тестирование.
+Принцип: сначала тест, потом код чтобы тест проходил.
+Первый тест
+Название метода произвольное для JUnit4
+Для предыдущих версий важно чтобы метод начинался
+с "test". Поэтому для совместимости чаще
+всего называют метод начиная с "test"
+и добавляют аннотацию
+``` java
+    @Test // Аннотация (начиная с JUnit4)
+    // указывает что это тест
+    public void simplest() {
+        // assertEquals(message, expected, actual)
+        assertEquals("Дважды два четыре", 4, 2 * 2);
+        // Действительные числа сравниваются с погрешностью
+        assertEquals("Дважды два четыре", 4.0, 2.0 * 2.0,
+                1e-15);
+        // Сокращённая форма без message
+        assertEquals(4, 2 * 2);
+
+        // Конкатенация строк
+        assertEquals("test123", "test" + "123");
+
+        // Сравнение массивов
+        assertArrayEquals(new byte[]{1, 2, 3},
+                new byte[]{1, 2, 3});
+    }
+```
+Пример: тестируем вычисление факториала
+``` java
+    @Test
+    public void factorial() {
+        assertEquals(1, MyClass.fact(1));
+        assertEquals(2, MyClass.fact(2));
+        assertEquals(2 * 3, MyClass.fact(3));
+        assertEquals(2 * 3 * 4, MyClass.fact(4));
+        assertEquals(2 * 3 * 4 * 5, MyClass.fact(5));
+        assertEquals(2 * 3 * 4 * 5 * 6, MyClass.fact(6));
+        assertEquals(2 * 3 * 4 * 5 * 6 * 7, MyClass.fact(7));
+        assertEquals(2 * 3 * 4 * 5 * 6 * 7 * 8, MyClass.fact(8));
+        assertEquals(2 * 3 * 4 * 5 * 6 * 7 * 8 * 9, MyClass.fact(9));
+        assertEquals(2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10, MyClass.fact(10));
+        assertEquals(2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 10 * 11, MyClass.fact(11));
+    }
+```
+Регулярные выражения в Idea IDE:
+assertEquals\(intToStr\((\d+)\), \(?("[^"]+")\)?\
+assertEquals($2, intToStr($1))
+* $1 - первый параметр
+* $2 - второй параметр и т.д.
 Домашнее задание: решение квадратного уравнения
 -----------------------------------------------
 
@@ -597,11 +757,30 @@ public class AnyXException extends RuntimeException {
         return new double[]{};
     }
 ```
-assertEquals( ожидаемое_значение, вычисленное значение )
-сообщение_если_значения_не_равны, ..., ...
-a*x^2 + b*x + c = 0
-x^2 - 1 = 0
-x^2 - 4 = 0
+Первый (самый простой) тест
+``` java
+    @Test
+    public void testSimple() {
+        // assertEquals( ожидаемое_значение, вычисленное значение )
+        //       сообщение_если_значения_не_равны, ..., ...
+        // a*x^2 + b*x + c = 0
+        assertArrayEquals("x^2 = 0",
+                new double[]{0.0},
+                SquareEq.solve(1.0, 0.0, 0.0), DELTA);
+    }
+```
+Рассматриваем случай, когда два решения уравнения
+``` java
+    @Test
+    public void twoSolutions() {
+        assertArrayEquals("x^2 - 1 = 0",
+                new double[]{-1.0, 1.0},
+                SquareEq.solve(1.0, 0.0, -1.0), DELTA);
+        assertArrayEquals("x^2 - 4 = 0",
+                new double[]{-2.0, 2.0},
+                SquareEq.solve(1.0, 0.0, -4.0), DELTA);
+    }
+```
 Тестируем вырожденный случай: a = 0, b = 0
 ``` java
     @Test
@@ -619,10 +798,8 @@ x^2 - 4 = 0
         assertArrayEquals("0 = 0",
                 new double[]{},
                 SquareEq.solve(0.0, 0.0, 0.0), DELTA);
-
     }
 ```
-write your code here
 Печать даты в строку
 Из строки в дату
 Из даты в Oracle
@@ -636,6 +813,21 @@ write your code here
 
 Имя животного
 Описание животного
+Ввод с клавиатуры и вывод на экран
+----------------------------------
+Для ввода с клавиатуры используем
+класс **Scanner**
+System.in - стандартный поток ввода
+с клавиатуры
+``` java
+        Scanner s = new Scanner(System.in);
+        // Два числа с клавиатуры
+        int a = s.nextInt();
+        int b = s.nextInt();
+        // Считаем их сумму
+        int sum = a + b;
+        System.out.println("Сумма = " + sum);
+```
 Открываем файл
 Text, TextFile
 Читаем из файла

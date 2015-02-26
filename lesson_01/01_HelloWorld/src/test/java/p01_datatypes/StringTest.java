@@ -2,13 +2,11 @@ package p01_datatypes;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /**
  * Работа со строками
- *
+ * <p/>
  * http://docs.oracle.com/javase/7/docs/api/java/lang/String.html
  */
 public class StringTest {
@@ -74,4 +72,21 @@ public class StringTest {
         assertFalse("+7-911-511-41-40".matches(phoneNumber));
 
     }
+
+    // Сравнение строк
+    //-->
+    @Test
+    public void testStrEq() {
+        String a = "test 1";
+        String b = a.substring(0, 4);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        String c = "test";
+        System.out.println("c = " + c);
+        System.out.println("(c == b) = " + (c == b));
+        System.out.println("c.equals(b) = " + c.equals(b));
+        assertFalse(c == b);
+        assertTrue(c.equals(b));
+    }
+    //<--
 }

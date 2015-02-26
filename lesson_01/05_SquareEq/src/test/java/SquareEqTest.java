@@ -9,11 +9,10 @@ public class SquareEqTest {
 
     public static final double DELTA = 0.000001;
 
-    /**
-     * Первый (самый простой) тест
-     */
+    // Первый (самый простой) тест
+    //-->
     @Test
-    public void test1() {
+    public void testSimple() {
         // assertEquals( ожидаемое_значение, вычисленное значение )
         //       сообщение_если_значения_не_равны, ..., ...
         // a*x^2 + b*x + c = 0
@@ -21,16 +20,20 @@ public class SquareEqTest {
                 new double[]{0.0},
                 SquareEq.solve(1.0, 0.0, 0.0), DELTA);
     }
+    //<--
 
+    // Рассматриваем случай, когда два решения уравнения
+    //-->
     @Test
     public void twoSolutions() {
-        // x^2 - 1 = 0
-        assertArrayEquals(new double[]{-1.0, 1.0},
+        assertArrayEquals("x^2 - 1 = 0",
+                new double[]{-1.0, 1.0},
                 SquareEq.solve(1.0, 0.0, -1.0), DELTA);
-        // x^2 - 4 = 0
-        assertArrayEquals(new double[]{-2.0, 2.0},
+        assertArrayEquals("x^2 - 4 = 0",
+                new double[]{-2.0, 2.0},
                 SquareEq.solve(1.0, 0.0, -4.0), DELTA);
     }
+    //<--
 
     /**
      * Квадратные уравнения с одним решением
@@ -90,7 +93,6 @@ public class SquareEqTest {
         assertArrayEquals("0 = 0",
                 new double[]{},
                 SquareEq.solve(0.0, 0.0, 0.0), DELTA);
-
     }
     //<--
 }
