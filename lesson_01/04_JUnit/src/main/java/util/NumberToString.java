@@ -29,6 +29,7 @@ public class NumberToString {
             "", "сто", "двести", "триста", "четыреста", "пятьсот",
             "шестьсот", "семьсот", "восемьсот", "девятьсот",
     };
+    static String thousands[] = {"тысяч", "тысяча", "тысячи"};
 
     // Статический конструктор
     //-->
@@ -71,20 +72,20 @@ public class NumberToString {
 
             switch (t) {
                 case 0:
-                    res += " тысяч";
+                    res += " " +
+                            thousands[numForm(t)];
                     break;
                 case 1:
-                    res += " одна тысяча";
+                    res += " одна " +
+                            thousands[numForm(t)];
                     break;
                 case 2:
-                    res += " две тысячи";
+                    res += " две " +
+                            thousands[numForm(t)];
                     break;
                 default:
-                    if (t == 3 || t == 4) {
-                        res += " " + digits[t] + " тысячи";
-                    } else {
-                        res += " " + digits[t] + " тысяч";
-                    }
+                    res += " " + digits[t] + " " +
+                            thousands[numForm(t)];
             }
             N -= t * 1000;
         }
@@ -107,6 +108,15 @@ public class NumberToString {
         // Делаем первую букву большой
         res = res.substring(0, 1).toUpperCase() + res.substring(1);
         return res;
+    }
+
+    // Форма числительного в зависимости от числа
+    private static int numForm(int N) {
+        if (N == 1)
+            return 1;
+        if (N >= 2 && N <= 4)
+            return 2;
+        return 0;
     }
     //<--
 }
