@@ -1,4 +1,4 @@
-package p00_helloworld.package1;
+package package2;
 
 public class Main {
 
