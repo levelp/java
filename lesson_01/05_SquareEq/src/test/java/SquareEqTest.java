@@ -72,19 +72,19 @@ public class SquareEqTest {
                 SquareEq.solve(0.0, 1.0, -10.0), DELTA);
     }
 
-    /**
-     * Вырожденный случай: a = 0, b = 0
-     */
+    // Тестируем вырожденный случай: a = 0, b = 0
+    //-->
     @Test
     public void zeroAZeroB() {
         assertArrayEquals("1 = 0",
                 new double[]{},
                 SquareEq.solve(0.0, 0.0, 1.0), DELTA);
     }
+    //<--
 
-    /**
-     * Вырожденный случай: a = 0, b = 0, c = 0
-     */
+    // Вырожденный случай: a = 0, b = 0, c = 0
+    // Ожидаемое исключение
+    //-->
     @Test(expected = AnyXException.class)
     public void zeroAZeroBZeroC() {
         assertArrayEquals("0 = 0",
@@ -92,4 +92,5 @@ public class SquareEqTest {
                 SquareEq.solve(0.0, 0.0, 0.0), DELTA);
 
     }
+    //<--
 }
