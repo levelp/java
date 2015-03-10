@@ -1,5 +1,6 @@
 package calc;
 
+//-->
 /**
  * Вычисления
  */
@@ -16,3 +17,4 @@ public class Calc {
         return a * b;
     }
 }
+//<--
