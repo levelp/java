@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <jogl.version>2.2.1</jogl.version>
+        <jogl.version>2.3.2</jogl.version>
     </properties>
 
     <dependencies>
