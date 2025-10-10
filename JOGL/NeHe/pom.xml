@@ -10,7 +10,7 @@
 
 
     <properties>
-        <jogl.version>2.3.2</jogl.version>
+        <jogl.version>2.6.0</jogl.version>
     </properties>
 
     <dependencies>
